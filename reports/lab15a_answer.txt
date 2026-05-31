@@ -1,0 +1,41 @@
+Lab15a Answer
+Piter Garcia
+.     Type a question mark (?) to get a Debug HELP screen.
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+
+Type '?' for  80286]
+-u
+1A25:0000 B8241A         MOV    AX,1A24
+1A25:0003 8ED8           MOV    DS,AX
+1A25:0005 8D360000       LEA    SI,[0000]
+1A25:0009 B90000         MOV    CX,0000
+1A25:000C BA0800         MOV    DX,0008
+1A25:000F B80000         MOV    AX,0000
+1A25:0012 8A04           MOV    AL,[SI]
+1A25:0014 F6E0           MUL    AL
+-u
+1A25:0016 03C8           ADD    CX,AX
+1A25:0018 83D300         ADC    BX,+00
+1A25:001B 46             INC    SI
+1A25:001C 4A             DEC    DX
+1A25:001D 75F0           JNZ    000F
+1A25:001F D1EB           SHR    BX,1
+1A25:0021 D1D9           RCR    CX,1
+1A25:0023 D1EB           SHR    BX,1
+-u
+1A25:0025 D1D9           RCR    CX,1
+1A25:0027 D1EB           SHR    BX,1
+1A25:0029 D1D9           RCR    CX,1
+1A25:002B C3             RET
+1A25:002C 3241C6         XOR    AL,[BX+DI-3A]
+1A25:002F 86FE           XCHG   BH,DH
+1A25:0031 EF             OUT    DX,AX
+1A25:0032 0080BEFE       ADD    [BX+SI+FEBE],AL
+-bp 2b
+-g
+AX=FE01  BX=0000  CX=C643  DX=0000  SP=0000  BP=0000  SI=0008  DI=0000
+DS=1A24  ES=1A14  SS=1A24  CS=1A25  IP=002B   NV UP EI PL ZR NA PE CY
+1A25:002B C3             RET                                  ;BR0
+-

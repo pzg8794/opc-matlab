@@ -1,0 +1,136 @@
+
+
+.
+.     Type a question mark (?) to get a Debug HELP screen.
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+
+Type '?' for  80286]
+-U
+1A26:0000 3BC3           CMP    AX,BX
+1A26:0002 7205           JB     0009
+1A26:0004 D1EB           SHR    BX,1
+1A26:0006 EB03           JMP    000B
+1A26:0008 90             NOP
+1A26:0009 D1E8           SHR    AX,1
+1A26:000B 03C3           ADD    AX,BX
+1A26:000D C3             RET
+-BP 000D
+-RAX 100
+-RBX 200
+-G
+AX=0280  BX=0200  CX=000E  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A16  ES=1A16  SS=1A26  CS=1A26  IP=000D   NV UP EI PL NZ NA PO NC
+1A26:000D C3             RET                                  ;BR0
+
+
+
+
+.
+.     Type a question mark (?) to get a Debug HELP screen.
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+
+Type '?' for  80286]
+-U
+1A26:0000 3BC3           CMP    AX,BX
+1A26:0002 7205           JB     0009
+1A26:0004 D1EB           SHR    BX,1
+1A26:0006 EB03           JMP    000B
+1A26:0008 90             NOP
+1A26:0009 D1E8           SHR    AX,1
+1A26:000B 03C3           ADD    AX,BX
+1A26:000D C3             RET
+-BP 000D
+-RAX 200
+-RBX 100
+-G
+AX=0280  BX=0080  CX=000E  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A16  ES=1A16  SS=1A26  CS=1A26  IP=000D   NV UP EI PL NZ NA PO NC
+1A26:000D C3             RET                                  ;BR0
+-
+
+
+
+.
+.     Type a question mark (?) to get a Debug HELP screen.
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+
+Type '?' for  80286]
+-U
+1A26:0000 3BC3           CMP    AX,BX
+1A26:0002 7205           JB     0009
+1A26:0004 D1EB           SHR    BX,1
+1A26:0006 EB03           JMP    000B
+1A26:0008 90             NOP
+1A26:0009 D1E8           SHR    AX,1
+1A26:000B 03C3           ADD    AX,BX
+1A26:000D C3             RET
+-BP 000D
+-RAX 8000
+-RBX 2000
+-G
+AX=9000  BX=1000  CX=000E  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A16  ES=1A16  SS=1A26  CS=1A26  IP=000D   NV UP EI NG NZ NA PE NC
+1A26:000D C3             RET                                  ;BR0
+-
+
+
+
+.
+.     Type a question mark (?) to get a Debug HELP screen.
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+
+Type '?' for  80286]
+-U
+1A26:0000 3BC3           CMP    AX,BX
+1A26:0002 7205           JB     0009
+1A26:0004 D1EB           SHR    BX,1
+1A26:0006 EB03           JMP    000B
+1A26:0008 90             NOP
+1A26:0009 D1E8           SHR    AX,1
+1A26:000B 03C3           ADD    AX,BX
+1A26:000D C3             RET
+-BP 000D
+-RAX 8111
+-RBX 8222
+-G
+AX=C2AA  BX=8222  CX=000E  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A16  ES=1A16  SS=1A26  CS=1A26  IP=000D   NV UP EI NG NZ NA PE NC
+1A26:000D C3             RET                                  ;BR0
+-
+
+
+
+.
+.     Type a question mark (?) to get a Debug HELP screen.
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+
+Type '?' for  80286]
+-U
+1A26:0000 3BC3           CMP    AX,BX
+1A26:0002 7205           JB     0009
+1A26:0004 D1EB           SHR    BX,1
+1A26:0006 EB03           JMP    000B
+1A26:0008 90             NOP
+1A26:0009 D1E8           SHR    AX,1
+1A26:000B 03C3           ADD    AX,BX
+1A26:000D C3             RET
+-BP 000D
+-RAX 8222
+-RBX 8111
+-G
+AX=C2AA  BX=4088  CX=000E  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A16  ES=1A16  SS=1A26  CS=1A26  IP=000D   NV UP EI NG NZ NA PE NC
+1A26:000D C3             RET                                  ;BR0
+
+
+

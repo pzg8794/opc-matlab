@@ -1,0 +1,51 @@
+;Lab No 8-2 Answers Submitted to Professor Balaji
+;By Piter Garcia
+.     Type a question mark (?) to get a Debug HELP screen.
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+
+Type '?' for  80286]
+-u
+1A35:0000 8BD8           MOV    BX,AX
+1A35:0002 B82B1A         MOV    AX,1A2B
+1A35:0005 8ED8           MOV    DS,AX
+1A35:0007 8D3E7E00       LEA    DI,[007E]
+1A35:000B B110           MOV    CL,10
+1A35:000D 8BC3           MOV    AX,BX
+1A35:000F 33DB           XOR    BX,BX
+1A35:0011 D1C8           ROR    AX,1
+-u
+1A35:0013 7304           JNB    0019
+1A35:0015 8B15           MOV    DX,[DI]
+1A35:0017 03DA           ADD    BX,DX
+1A35:0019 47             INC    DI
+1A35:001A 47             INC    DI
+1A35:001B FEC9           DEC    CL
+1A35:001D 75F2           JNZ    0011
+1A35:001F 33D2           XOR    DX,DX
+-u
+1A35:0021 C3             RET
+1A35:0022 D433           AAM    33
+1A35:0024 24FE           AND    AL,FE
+1A35:0026 3D9C00         CMP    AX,009C
+1A35:0029 7505           JNZ    0030
+1A35:002B E8B292         CALL   92E0
+1A35:002E EB43           JMP    0073
+1A35:0030 833E263C00     CMP    Word Ptr [3C26],+00
+-bp 21
+-rax 6789
+-g
+AX=6789  BX=1A85  CX=0000  DX=0000  SP=0000  BP=0000  SI=0000  DI=009E
+DS=1A2B  ES=1A1B  SS=1A2B  CS=1A35  IP=0021   NV UP EI PL ZR NA PE NC
+1A35:0021 C3             RET                                  ;BR0
+-rax 9999
+-g=0
+AX=9999  BX=270F  CX=0000  DX=0000  SP=0000  BP=0000  SI=0000  DI=009E
+DS=1A2B  ES=1A1B  SS=1A2B  CS=1A35  IP=0021   NV UP EI PL ZR NA PE NC
+1A35:0021 C3             RET                                  ;BR0
+-rax 0
+-g=0
+AX=0000  BX=0000  CX=0000  DX=0000  SP=0000  BP=0000  SI=0000  DI=009E
+DS=1A2B  ES=1A1B  SS=1A2B  CS=1A35  IP=0021   NV UP EI PL ZR NA PE NC
+1A35:0021 C3             RET                                  ;BR0

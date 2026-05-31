@@ -1,0 +1,5 @@
+%Part B
+[num] = [0 0 20];
+[den] = [1 6 20];
+[A,B,C,D] = tf2ss(num,den)
+printsys(A,B,C,D)

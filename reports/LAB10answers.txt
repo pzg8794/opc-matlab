@@ -1,0 +1,49 @@
+.
+.     Type a question mark (?) to get a Debug HELP screen.
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+;Lab 10 Submitted to Prof. Balaji
+;By Piter Garcia
+;8 BIT SEQUENCE GENERATOR PART A
+;SEQUENCE GENERATED IN BL
+
+Type '?' for  80286]
+-bp a
+-g
+AX=0000  BX=007F  CX=000C  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A10  ES=1A10  SS=1A20  CS=1A20  IP=000A   OV UP EI PL NZ NA PE CY
+1A20:000A EBF6           JMP    0002                          ;BR0
+-g
+AX=0000  BX=003F  CX=000C  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A10  ES=1A10  SS=1A20  CS=1A20  IP=000A   NV UP EI PL NZ NA PE CY
+1A20:000A EBF6           JMP    0002                          ;BR0
+-g
+AX=0000  BX=009F  CX=000C  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A10  ES=1A10  SS=1A20  CS=1A20  IP=000A   OV UP EI PL NZ NA PO CY
+1A20:000A EBF6           JMP    0002                          ;BR0
+-g
+AX=0000  BX=004F  CX=000C  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A10  ES=1A10  SS=1A20  CS=1A20  IP=000A   OV UP EI PL NZ NA PE CY
+1A20:000A EBF6           JMP    0002                          ;BR0
+-g
+AX=0000  BX=0027  CX=000C  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A10  ES=1A10  SS=1A20  CS=1A20  IP=000A   NV UP EI PL NZ NA PE CY
+1A20:000A EBF6           JMP    0002                          ;BR0
+-g
+AX=0000  BX=0013  CX=000C  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A10  ES=1A10  SS=1A20  CS=1A20  IP=000A   NV UP EI PL NZ NA PE CY
+1A20:000A EBF6           JMP    0002                          ;BR0
+-g
+AX=0000  BX=0009  CX=000C  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A10  ES=1A10  SS=1A20  CS=1A20  IP=000A   NV UP EI PL NZ NA PE CY
+1A20:000A EBF6           JMP    0002                          ;BR0
+-g
+AX=0000  BX=0084  CX=000C  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A10  ES=1A10  SS=1A20  CS=1A20  IP=000A   OV UP EI PL NZ NA PO CY
+1A20:000A EBF6           JMP    0002                          ;BR0
+-g
+AX=0000  BX=0042  CX=000C  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A10  ES=1A10  SS=1A20  CS=1A20  IP=000A   OV UP EI PL ZR NA PE NC
+1A20:000A EBF6           JMP    0002                          ;BR0
+-

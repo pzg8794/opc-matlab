@@ -1,0 +1,84 @@
+%Lab6 Answer- Part A - Piter Garcia
+%Part A for the obtained matrices
+A =
+
+    -6    -2
+    10     0
+
+
+B =
+
+     2
+     0
+
+
+C =
+
+     0     1
+
+
+D =
+
+     0
+
+
+num =
+
+         0         0   20.0000
+
+
+den =
+
+    1.0000    6.0000   20.0000
+
+ 
+num/den = 
+ 
+         20
+   --------------
+   s^2 + 6 s + 20
+
+
+
+
+
+
+%Part A for the Given  matrices
+
+AA =
+
+     0     1
+   -20    -6
+
+
+BB =
+
+     0
+     1
+
+
+CC =
+
+    20     0
+
+
+DD =
+
+     0
+
+
+num1 =
+
+         0   -0.0000   20.0000
+
+
+den1 =
+
+    1.0000    6.0000   20.0000
+
+ 
+num/den = 
+ 
+   -8.8818e-016 s + 20
+   -------------------
+      s^2 + 6 s + 20

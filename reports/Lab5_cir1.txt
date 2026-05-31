@@ -1,0 +1,108 @@
+This is a Classroom License for instructional use only.
+	Research and commercial use is prohibited.
+  Using Toolbox Path Cache.  Type "help toolbox_path_cache" for more info.
+ 
+  To get started, select "MATLAB Help" from the Help menu.
+
+Circuit #1
+
+A=[0 1;-100 -10]
+B=[0;1]
+C=[100 0]
+D=[0]
+
+[num,den]=ss2tf(A,B,C,D)
+CIR1=tf(num,den)
+
+num1=[0 0 100]; den1=[1 10 100];
+[A,B,C,D]=tf2ss(num1,den1)
+printsys(A,B,C,D)
+cir1=tf(num1,den1)
+ 
+A =
+
+     0     1
+  -100   -10
+
+
+B =
+
+     0
+     1
+
+
+C =
+
+   100     0
+
+
+D =
+
+     0
+
+
+num =
+
+         0   -0.0000  100.0000
+
+
+den =
+
+    1.0000   10.0000  100.0000
+
+ 
+Transfer function:
+-3.553e-015 s + 100
+-------------------
+ s^2 + 10 s + 100
+ 
+
+A =
+
+   -10  -100
+     1     0
+
+
+B =
+
+     1
+     0
+
+
+C =
+
+     0   100
+
+
+D =
+
+     0
+
+ 
+a = 
+                        x1           x2
+           x1    -10.00000   -100.00000
+           x2      1.00000            0
+ 
+ 
+b = 
+                        u1
+           x1      1.00000
+           x2            0
+ 
+ 
+c = 
+                        x1           x2
+           y1            0    100.00000
+ 
+ 
+d = 
+                        u1
+           y1            0
+ 
+ 
+Transfer function:
+      100
+----------------
+s^2 + 10 s + 100
+ 

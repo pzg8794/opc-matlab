@@ -1,0 +1,30 @@
+   ******** LATEST REVISION OF "MAKE"   2/3/04 *********
+   * MASM 5.1 CREATES OBJ AND LST FILES FROM ASM FILE **
+   ***** LINK 3.64 CREATES EXE FILE FROM OBJ FILE ******
+Microsoft (R) Macro Assembler Version 5.10
+Copyright (C) Microsoft Corp 1981, 1988.  All rights reserved.
+
+
+  46996 + 401736 Bytes symbol space free
+
+      0 Warning Errors
+      0 Severe  Errors
+Press any key to continue . . .
+
+Microsoft (R) Overlay Linker  Version 3.64
+Copyright (C) Microsoft Corp 1983-1988.  All rights reserved.
+
+LINK : warning L4021: no stack segment
+ Volume in drive C is WIN98
+ Volume Serial Number is B8B6-B8BB
+
+ Directory of c:\
+
+09/14/2011  12:55 PM               212 Lab4.txt
+09/14/2011  12:56 PM               212 Lab4.asm
+09/14/2011  01:01 PM                68 LAB4.OBJ
+09/14/2011  01:01 PM               525 LAB4.EXE
+09/14/2011  01:01 PM             1,042 LAB4.LST
+               5 File(s)          2,059 bytes
+               0 Dir(s)  44,219,596,800 bytes free
+C:\DOS\BATCH>

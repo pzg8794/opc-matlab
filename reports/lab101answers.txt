@@ -1,0 +1,26 @@
+;Lab 10-2 answers Submitted to Prof. Balaji
+;By Piter Garcia
+;8 BIT SEQUENCE GENERATOR PART A
+;SEQUENCE GENERATED IN BL
+
+
+
+
+.     Type a question mark (?) to get a Debug HELP screen.
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+
+Type '?' for  80286]
+-g
+FF-7F-3F-9F-CF-67-33-19-8C-C6-E3-F1-78-BC-DE-EF-77-3B-1D-0E-07-83-41-20-10-08-04
+-82-C1-60-B0-58-AC-D6-EB-F5-FA-7D-BE-5F-2F-97-CB-E5-F2-79-3C-9E-4F-27-93-49-24-9
+2-C9-64-32-99-CC-66-B3-59-2C-96-4B-A5-52-29-94-CA-65-B2-D9-6C-36-1B-0D-06-03-01-
+80-40-A0-50-A8-54-2A-95-4A-25-12-89-C4-62-31-98-4C-26-13-09-84-C2-61-30-18-0C-86
+-43-A1-D0-E8-F4-7A-3D-1E-0F-87-C3-E1-70-B8-5C-2E-17-8B-45-A2-D1-68-B4-DA-6D-B6-5
+B-AD-56-AB-55-AA-D5-EA-75-BA-DD-EE-F7-7B-BD-5E-AF-D7-6B-B5-5A-2D-16-0B-05-02-81-
+C0-E0-F0-F8-FC-7E-BF-DF-6F-37-9B-4D-A6-53-A9-D4-6A-35-1A-8D-46-A3-51-28-14-8A-C5
+-E2-71-38-1C-8E-47-23-11-88-44-22-91-C8-E4-72-39-9C-CE-E7-73-B9-DC-6E-B7-DB-ED-F
+6-FB-FD-FE-
+Program terminated normally (45)
+-

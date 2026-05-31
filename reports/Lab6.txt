@@ -1,0 +1,194 @@
+This is a Classroom License for instructional use only.
+	Research and commercial use is prohibited.
+  Using Toolbox Path Cache.  Type "help toolbox_path_cache" for more info.
+ 
+  To get started, select "MATLAB Help" from the Help menu.
+
+Part A.
+
+A=[0 1;-20 -6]
+B=[0;1]
+C=[20 0]
+D=[0]
+
+[num,den]=ss2tf(A,B,C,D)
+CIR1=tf(num,den)
+
+
+A =
+
+     0     1
+   -20    -6
+
+
+B =
+
+     0
+     1
+
+
+C =
+
+    20     0
+
+
+D =
+
+     0
+
+
+num =
+
+         0   -0.0000   20.0000
+
+
+den =
+
+    1.0000    6.0000   20.0000
+
+ 
+Transfer function:
+-8.882e-016 s + 20
+------------------
+  s^2 + 6 s + 20
+
+------------------------------------------------------------------------------------
+
+Part B.
+
+A=[-6 -2;10 0]
+B=[2;0]
+C=[0 10]
+D=[0]
+
+[num1,den1]=ss2tf(A,B,C,D)
+CIR1=tf(num1,den1)
+
+A =
+
+    -6    -2
+    10     0
+
+
+B =
+
+     2
+     0
+
+
+C =
+
+     0    10
+
+
+D =
+
+     0
+
+
+num1 =
+
+         0         0  200.0000
+
+
+den1 =
+
+    1.0000    6.0000   20.0000
+
+ 
+Transfer function:
+     200
+--------------
+s^2 + 6 s + 20
+ 
+----------------------------------------------------------------------------------
+
+Part B.
+
+num1=[0 0 20]; den1=[1 6 20];
+[A,B,C,D]=tf2ss(num1,den1)
+printsys(A,B,C,D)
+cir1=tf(num1,den1)
+
+A =
+
+    -6   -20
+     1     0
+
+
+B =
+
+     1
+     0
+
+
+C =
+
+     0    20
+
+
+D =
+
+     0
+
+ 
+a = 
+                        x1           x2
+           x1     -6.00000    -20.00000
+           x2      1.00000            0
+ 
+ 
+b = 
+                        u1
+           x1      1.00000
+           x2            0
+ 
+ 
+c = 
+                        x1           x2
+           y1            0     20.00000
+ 
+ 
+d = 
+                        u1
+           y1            0
+ 
+ 
+Transfer function:
+      20
+--------------
+s^2 + 6 s + 20
+ 
+-----------------------------------------------------------------------------
+
+Part C.
+
+A=[-6 -2;10 0]
+B=[2;0]
+C=[0 1]
+D=[0]
+
+[num,den]=ss2tf(A,B,C,D)
+CIR1=tf(num,den)
+t=(0:0.01:10)
+y=step(A,B,C,D,1,t)
+subplot(2,1,1)
+plot(t,y)
+ylabel('y(t)')
+xlabel('Time(s)'),grid
+title('Preparation State Matrices From Part B')
+
+E=[0 1;-20 -6]
+F=[1;0]
+G=[20 0]
+H=[0]
+
+[num1,den1]=ss2tf(E,F,G,H)
+CIR2=tf(num1,den1)
+t=(0:0.01:10)
+y=step(E,F,G,H,1,t)
+subplot(2,1,2)
+plot(t,y)
+ylabel('y(t)')
+xlabel('Time(s)'),grid
+title('Preparation State Matrices From Part C')

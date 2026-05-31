@@ -1,0 +1,72 @@
+;ADNER RAMOS, JOB 11
+;ANS = X1*X2*X3/(X4+X5)
+
+DATA SEGMENT
+	X1	DB	?
+	X2	DB	?
+	x3	DB	?
+	X4	DB	?
+	X5	DB	?
+	ANS	DW	?
+DATA ENDS
+
+CODE SEGMENT
+ASSUME CS:CODE,DS:DATA
+
+XX:	MOV	AX, DATA
+	MOV	DS, AX
+	MOV	AL, X1
+	MOV	BL, X2 
+	MUL	BL	;X1*X2
+	MOV	DL, X3
+	MUL	DX	;X1*X2*X3 in DX AX
+	MOV	BL, X4  ;
+	MOV	CL, X5
+	ADD	BX, CX  ;X4+X5
+	DIV	BX	;X1*X2*X3/(X4+X5)
+	MOV	ANS, AX
+	HLT
+	CODE ENDS
+	END XX
+
+
+.
+.     Type a question mark (?) to get a Debug HELP screen.
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+
+Type '?' for  80286]
+-u
+1A21:0000 B8201A         MOV    AX,1A20
+1A21:0003 8ED8           MOV    DS,AX
+1A21:0005 A00000         MOV    AL,[0000]
+1A21:0008 8A1E0100       MOV    BL,[0001]
+1A21:000C F6E3           MUL    BL
+1A21:000E 8A160200       MOV    DL,[0002]
+1A21:0012 F7E2           MUL    DX
+1A21:0014 8A1E0300       MOV    BL,[0003]
+-u
+1A21:0018 8A0E0400       MOV    CL,[0004]
+1A21:001C 03D9           ADD    BX,CX
+1A21:001E F7F3           DIV    BX
+1A21:0020 A30500         MOV    [0005],AX
+1A21:0023 F4             HLT
+1A21:0024 52             PUSH   DX
+1A21:0025 50             PUSH   AX
+1A21:0026 E8FF0E         CALL   0F28
+-bp 23
+-t2
+AX=1A20  BX=0000  CX=0034  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A10  ES=1A10  SS=1A20  CS=1A21  IP=0003   NV UP EI PL NZ NA PO NC
+1A21:0003 8ED8           MOV    DS,AX
+AX=1A20  BX=0000  CX=0034  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A20  ES=1A10  SS=1A20  CS=1A21  IP=0005   NV UP EI PL NZ NA PO NC
+1A21:0005 A00000         MOV    AL,[0000]                          DS:0000=00
+-e0
+1A20:0000  00.aa   00.bb   00.cc   00.dd   00.ee   00.
+-g=0
+AX=3730  BX=01CB  CX=00EE  DX=0198  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A20  ES=1A10  SS=1A20  CS=1A21  IP=0023   NV UP EI PL NZ AC PO NC
+1A21:0023 F4             HLT                                  ;BR0
+-

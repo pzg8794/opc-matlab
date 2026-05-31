@@ -1,0 +1,106 @@
+.
+.     Type a question mark (?) to get a Debug HELP screen.
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+
+Type '?' for  80286]
+-U
+1A26:0000 8BD8           MOV    BX,AX
+1A26:0002 B100           MOV    CL,00
+1A26:0004 B20F           MOV    DL,0F
+1A26:0006 D1E3           SHL    BX,1
+1A26:0008 7203           JB     000D
+1A26:000A EB0B           JMP    0017
+1A26:000C 90             NOP
+1A26:000D 83C300         ADD    BX,+00
+-U
+1A26:0010 7803           JS     0015
+1A26:0012 EB03           JMP    0017
+1A26:0014 90             NOP
+1A26:0015 FEC1           INC    CL
+1A26:0017 FECA           DEC    DL
+1A26:0019 75EB           JNZ    0006
+1A26:001B C3             RET
+1A26:001C 3C00           CMP    AL,00
+-BP 001B
+-RAX FFFF
+-G
+AX=FFFF  BX=8000  CX=000F  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A16  ES=1A16  SS=1A26  CS=1A26  IP=001B   NV UP EI PL ZR NA PE NC
+1A26:001B C3             RET                                  ;BR0
+-
+
+
+
+.
+.     Type a question mark (?) to get a Debug HELP screen.
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+
+Type '?' for  80286]
+-U
+1A26:0000 8BD8           MOV    BX,AX
+1A26:0002 B100           MOV    CL,00
+1A26:0004 B20F           MOV    DL,0F
+1A26:0006 D1E3           SHL    BX,1
+1A26:0008 7203           JB     000D
+1A26:000A EB0B           JMP    0017
+1A26:000C 90             NOP
+1A26:000D 83C300         ADD    BX,+00
+-U
+1A26:0010 7803           JS     0015
+1A26:0012 EB03           JMP    0017
+1A26:0014 90             NOP
+1A26:0015 FEC1           INC    CL
+1A26:0017 FECA           DEC    DL
+1A26:0019 75EB           JNZ    0006
+1A26:001B C3             RET
+1A26:001C 198B86FE       SBB    [BP+DI+FE86],CX
+-BP 001B
+-RAX AAAA
+-G
+AX=AAAA  BX=0000  CX=0000  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A16  ES=1A16  SS=1A26  CS=1A26  IP=001B   NV UP EI PL ZR NA PE NC
+1A26:001B C3             RET                                  ;BR0
+-
+
+
+
+
+
+.
+.     Type a question mark (?) to get a Debug HELP screen.
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+
+Type '?' for  80286]
+-
+-U
+1A26:0000 8BD8           MOV    BX,AX
+1A26:0002 B100           MOV    CL,00
+1A26:0004 B20F           MOV    DL,0F
+1A26:0006 D1E3           SHL    BX,1
+1A26:0008 7203           JB     000D
+1A26:000A EB0B           JMP    0017
+1A26:000C 90             NOP
+1A26:000D 83C300         ADD    BX,+00
+-U
+1A26:0010 7803           JS     0015
+1A26:0012 EB03           JMP    0017
+1A26:0014 90             NOP
+1A26:0015 FEC1           INC    CL
+1A26:0017 FECA           DEC    DL
+1A26:0019 75EB           JNZ    0006
+1A26:001B C3             RET
+1A26:001C 3C00           CMP    AL,00
+-BP 001B
+-RAX 38C0
+-G
+AX=38C0  BX=0000  CX=0003  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A16  ES=1A16  SS=1A26  CS=1A26  IP=001B   NV UP EI PL ZR NA PE NC
+1A26:001B C3             RET                                  ;BR0
+-
+

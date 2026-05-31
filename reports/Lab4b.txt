@@ -1,0 +1,114 @@
+RENNIE SOODOO Lab 4
+
+
+Math Commands
+
+x1=[0 0 1]; y1=[1 0 0]; sys1=tf(x1,y1);
+
+x2=[0 0 50]; y2=[0 0 1]; sys2=tf(x2,y2);
+
+x3=[0 1 0]; y3=[1 0 2]; sys3=tf(x3,y3);
+
+x4=[0 0 1]; y4=[0 1 1]; sys4=tf(x4,y4);
+
+x5=[0 4 2]; y5=[1 2 1]; sys5=tf(x5,y5);
+
+x6=[0 1 0 2]; y6=[1 0 0 14]; sys6=tf(x6,y6);
+
+x7=[0 0 4]; y7=[0 0 1]; sys7=tf(x7,y7);
+
+sysfb1=feedback(sys1,sys2);
+
+syss1=series(sys3,sys4);
+
+syss2=series(syss1,sysfb1);
+
+sysfb2=feedback(syss2,sys5);
+
+sysfb3=feedback(sysfb2,sys6);
+
+sysfin=series(sysfb3,sys7)
+
+
+
+Transfer function:
+ 1
+---
+s^2
+ 
+ 
+Transfer function:
+50
+ 
+ 
+Transfer function:
+   s
+-------
+s^2 + 2
+ 
+ 
+Transfer function:
+  1
+-----
+s + 1
+ 
+ 
+Transfer function:
+   4 s + 2
+-------------
+s^2 + 2 s + 1
+ 
+ 
+Transfer function:
+s^2 + 2
+--------
+s^3 + 14
+ 
+ 
+Transfer function:
+4
+ 
+ 
+Transfer function:
+   1
+--------
+s^2 + 50
+ 
+ 
+Transfer function:
+         s
+-------------------
+s^3 + s^2 + 2 s + 2
+ 
+ 
+Transfer function:
+                    s
+-----------------------------------------
+s^5 + s^4 + 52 s^3 + 52 s^2 + 100 s + 100
+ 
+ 
+Transfer function:
+                        s^3 + 2 s^2 + s
+----------------------------------------------------------------
+s^7 + 3 s^6 + 55 s^5 + 157 s^4 + 256 s^3 + 356 s^2 + 302 s + 100
+ 
+ 
+Transfer function:
+ 
+                             s^6 + 2 s^5 + s^4 + 14 s^3 + 28 s^2 + 14 s
+----------------------------------------------------------------------------------------------------
+s^10 + 3 s^9 + 55 s^8 + 171 s^7 + 298 s^6 + 1127 s^5 + 2502 s^4 + 3687 s^3 + 4988 s^2 + 4230 s + 1400     
+                                                                                                    
+                                                                                              
+                                                                                                    
+ 
+ 
+Transfer function:
+ 
+                          4 s^6 + 8 s^5 + 4 s^4 + 56 s^3 + 112 s^2 + 56 s
+----------------------------------------------------------------------------------------------------
+s^10 + 3 s^9 + 55 s^8 + 171 s^7 + 298 s^6 + 1127 s^5 + 2502 s^4 + 3687 s^3 + 4988 s^2 + 4230 s + 1400   
+                                                                                                    
+                                                                                             
+                                                                                                    
+ 

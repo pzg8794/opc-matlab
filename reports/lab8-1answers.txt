@@ -1,0 +1,55 @@
+;Lab No 8-1 Answers Submitted to Professor Balaji
+;By Piter Garcia
+;4 DIGIT BCD TO BINARY SUBROUTINE PART A
+;USING TABLE LOOKUP OF BIT WEIGHTS.
+;BCD # IS IN AX, ANSWER IS RETURNED IN BX
+;DI REGISTER IS USED AS A POINTER.
+
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+
+Type '?' for  80286]
+-U
+1A2D:0000 8BD8           MOV    BX,AX
+1A2D:0002 B82B1A         MOV    AX,1A2B
+1A2D:0005 8ED8           MOV    DS,AX
+1A2D:0007 8D3E0000       LEA    DI,[0000]
+1A2D:000B B110           MOV    CL,10
+1A2D:000D 8BC3           MOV    AX,BX
+1A2D:000F 33DB           XOR    BX,BX
+1A2D:0011 D1C8           ROR    AX,1
+-U
+1A2D:0013 7304           JNB    0019
+1A2D:0015 8B15           MOV    DX,[DI]
+1A2D:0017 03DA           ADD    BX,DX
+1A2D:0019 47             INC    DI
+1A2D:001A 47             INC    DI
+1A2D:001B FEC9           DEC    CL
+1A2D:001D 75F2           JNZ    0011
+1A2D:001F 33D2           XOR    DX,DX
+-U
+1A2D:0021 C3             RET
+1A2D:0022 55             PUSH   BP
+1A2D:0023 56             PUSH   SI
+1A2D:0024 57             PUSH   DI
+1A2D:0025 58             POP    AX
+1A2D:0026 59             POP    CX
+1A2D:0027 5A             POP    DX
+1A2D:0028 0000           ADD    [BX+SI],AL
+-RAX 6789
+-BP 21
+-G
+AX=6789  BX=1A85  CX=0000  DX=0000  SP=0000  BP=0000  SI=0000  DI=0020
+DS=1A2B  ES=1A1B  SS=1A2B  CS=1A2D  IP=0021   NV UP EI PL ZR NA PE NC
+1A2D:0021 C3             RET                                  ;BR0
+-RAX 9999
+-G=0
+AX=9999  BX=270F  CX=0000  DX=0000  SP=0000  BP=0000  SI=0000  DI=0020
+DS=1A2B  ES=1A1B  SS=1A2B  CS=1A2D  IP=0021   NV UP EI PL ZR NA PE NC
+1A2D:0021 C3             RET                                  ;BR0
+-RAX 0
+-G=0
+AX=0000  BX=0000  CX=0000  DX=0000  SP=0000  BP=0000  SI=0000  DI=0020
+DS=1A2B  ES=1A1B  SS=1A2B  CS=1A2D  IP=0021   NV UP EI PL ZR NA PE NC
+1A2D:0021 C3             RET                                  ;BR0

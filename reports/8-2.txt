@@ -1,0 +1,96 @@
+#include<iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+	double total=0,average;
+	const int TotalRainFall = 12;
+	double Month[TotalRainFall],lessrain, morerain;
+	
+	
+	cout << "The Rain Fall for each month.\n";
+	
+	for(int i=0; i<12; i++)
+	{	
+		while(Month[i]<0)
+		{
+			cout << "rain cannot be less than zero.\n";
+			cin >> Month[i];
+			
+		}
+		cin >> Month[i];
+		total =  total + Month[i];
+
+		if (morerain < Month[i])
+		{morerain = Month[i];}
+		
+		if(lessrain > Month[i])
+		{lessrain = Month[i];}
+		
+	}
+	average = total/12;
+	cout << "The total rain fall for the year is ";
+	cout << total << endl;
+	cout << "The average rainfall for each month is ";
+	cout << average << endl;
+	cout << lessrain<<endl;
+
+	cout << "The Highest amount of rain fall was in ";
+
+	{
+		if (Month[0]>Month[1]&&Month[0]>Month[2]&&Month[0]>Month[3]&&Month[0]>Month[4]&&Month[0]>Month[5]&&Month[0]>Month[6]&&Month[0]>Month[7]&&Month[0]>Month[8]&&Month[0]>Month[9]&&Month[0]>Month[10]&&Month[0]>Month[11])
+cout << "Month[1]: " << Month[0] << endl;
+else if (Month[1]>Month[0]&&Month[1]>Month[2]&&Month[1]>Month[3]&&Month[1]>Month[4]&&Month[1]>Month[5]&&Month[1]>Month[6]&&Month[1]>Month[7]&&Month[1]>Month[8]&&Month[1]>Month[9]&&Month[1]>Month[10]&&Month[1]>Month[11])
+cout << "Month[2]: " << Month[1] << endl;
+else if (Month[2]>Month[1]&&Month[2]>Month[0]&&Month[2]>Month[3]&&Month[2]>Month[4]&&Month[2]>Month[5]&&Month[2]>Month[6]&&Month[2]>Month[7]&&Month[2]>Month[8]&&Month[2]>Month[9]&&Month[2]>Month[10]&&Month[2]>Month[11])
+cout << "Month[3]: " << Month[2] << endl;
+else if (Month[3]>Month[1]&&Month[3]>Month[2]&&Month[3]>Month[0]&&Month[3]>Month[4]&&Month[3]>Month[5]&&Month[3]>Month[6]&&Month[3]>Month[7]&&Month[3]>Month[8]&&Month[3]>Month[9]&&Month[3]>Month[10]&&Month[3]>Month[11])
+cout <<  "Month[4]: " << Month[3] << endl;
+else if (Month[4]>Month[1]&&Month[4]>Month[2]&&Month[4]>Month[3]&&Month[4]>Month[0]&&Month[4]>Month[5]&&Month[4]>Month[6]&&Month[4]>Month[7]&&Month[4]>Month[8]&&Month[4]>Month[9]&&Month[4]>Month[10]&&Month[4]>Month[11])
+cout << "Month[5]: " << Month[4] << endl;
+else if (Month[5]>Month[1]&&Month[5]>Month[2]&&Month[5]>Month[3]&&Month[5]>Month[4]&&Month[5]>Month[0]&&Month[5]>Month[6]&&Month[5]>Month[7]&&Month[5]>Month[8]&&Month[5]>Month[9]&&Month[5]>Month[10]&&Month[5]>Month[11])
+cout << "Month[6]: " << Month[5] << endl;
+else if (Month[6]>Month[1]&&Month[6]>Month[2]&&Month[6]>Month[3]&&Month[6]>Month[4]&&Month[6]>Month[5]&&Month[6]>Month[0]&&Month[6]>Month[7]&&Month[6]>Month[8]&&Month[6]>Month[9]&&Month[6]>Month[10]&&Month[6]>Month[11])
+cout << "Month[7]: " << Month[6] << endl;
+else if (Month[7]>Month[1]&&Month[7]>Month[2]&&Month[7]>Month[3]&&Month[7]>Month[4]&&Month[7]>Month[5]&&Month[7]>Month[6]&&Month[7]>Month[0]&&Month[7]>Month[8]&&Month[7]>Month[9]&&Month[7]>Month[10]&&Month[7]>Month[11])
+cout << "Month[8]: " << Month[7] << endl;
+else if (Month[8]>Month[1]&&Month[8]>Month[2]&&Month[8]>Month[3]&&Month[8]>Month[4]&&Month[8]>Month[5]&&Month[8]>Month[6]&&Month[8]>Month[7]&&Month[8]>Month[0]&&Month[8]>Month[9]&&Month[8]>Month[10]&&Month[8]>Month[11])
+cout << "Month[9]: " << Month[8] << endl;
+else if (Month[9]>Month[1]&&Month[9]>Month[2]&&Month[9]>Month[3]&&Month[9]>Month[4]&&Month[9]>Month[5]&&Month[9]>Month[6]&&Month[9]>Month[7]&&Month[9]>Month[8]&&Month[9]>Month[0]&&Month[9]>Month[10]&&Month[9]>Month[11])
+cout << "Month[10]: " << Month[9] << endl;
+else if (Month[10]>Month[1]&&Month[10]>Month[2]&&Month[10]>Month[3]&&Month[10]>Month[4]&&Month[10]>Month[5]&&Month[10]>Month[6]&&Month[10]>Month[7]&&Month[10]>Month[8]&&Month[10]>Month[9]&&Month[10]>Month[0]&&Month[10]>Month[11])
+cout << "Month[11]: " << Month[10] << endl;
+else 
+cout << "Month[12]: " << Month[11] << endl;
+	}
+	cout << "The lowest amount of rain fall was in ";
+	{
+
+	if (Month[0]<Month[1]&&Month[0]<Month[2]&&Month[0]<Month[3]&&Month[0]<Month[4]&&Month[0]<Month[5]&&Month[0]<Month[6]&&Month[0]<Month[7]&&Month[0]<Month[8]&&Month[0]<Month[9]&&Month[0]<Month[10]&&Month[0]<Month[11])
+cout << "Month[1]: " << Month[0] << endl;
+else if (Month[1]<Month[0]&&Month[1]<Month[2]&&Month[1]<Month[3]&&Month[1]<Month[4]&&Month[1]<Month[5]&&Month[1]<Month[6]&&Month[1]<Month[7]&&Month[1]<Month[8]&&Month[1]<Month[9]&&Month[1]<Month[10]&&Month[1]<Month[11])
+cout << "Month[2]: " << Month[1] << endl;
+else if (Month[2]<Month[1]&&Month[2]<Month[0]&&Month[2]<Month[3]&&Month[2]<Month[4]&&Month[2]<Month[5]&&Month[2]<Month[6]&&Month[2]<Month[7]&&Month[2]<Month[8]&&Month[2]<Month[9]&&Month[2]<Month[10]&&Month[2]<Month[11])
+cout << "Month[3]: " << Month[2] << endl;
+else if (Month[3]<Month[1]&&Month[3]<Month[2]&&Month[3]<Month[0]&&Month[3]<Month[4]&&Month[3]<Month[5]&&Month[3]<Month[6]&&Month[3]<Month[7]&&Month[3]<Month[8]&&Month[3]<Month[9]&&Month[3]<Month[10]&&Month[3]<Month[11])
+cout << "Month[4]: " << Month[3] << endl;
+else if (Month[4]<Month[1]&&Month[4]<Month[2]&&Month[4]<Month[3]&&Month[4]<Month[0]&&Month[4]<Month[5]&&Month[4]<Month[6]&&Month[4]<Month[7]&&Month[4]<Month[8]&&Month[4]<Month[9]&&Month[4]<Month[10]&&Month[4]<Month[11])
+cout << "Month[5]: " << Month[4] << endl;
+else if (Month[5]<Month[1]&&Month[5]<Month[2]&&Month[5]<Month[3]&&Month[5]<Month[4]&&Month[5]<Month[0]&&Month[5]<Month[6]&&Month[5]<Month[7]&&Month[5]<Month[8]&&Month[5]<Month[9]&&Month[5]<Month[10]&&Month[5]<Month[11])
+cout << "Month[6]: " << Month[5] << endl;
+else if (Month[6]<Month[1]&&Month[6]<Month[2]&&Month[6]<Month[3]&&Month[6]<Month[4]&&Month[6]<Month[5]&&Month[6]<Month[0]&&Month[6]<Month[7]&&Month[6]<Month[8]&&Month[6]<Month[9]&&Month[6]<Month[10]&&Month[6]<Month[11])
+cout << "Month[7]: " << Month[6] << endl;
+else if (Month[7]<Month[1]&&Month[7]<Month[2]&&Month[7]<Month[3]&&Month[7]<Month[4]&&Month[7]<Month[5]&&Month[7]<Month[6]&&Month[7]<Month[0]&&Month[7]<Month[8]&&Month[7]<Month[9]&&Month[7]<Month[10]&&Month[7]<Month[11])
+cout << "Month[8]: " << Month[7] << endl;
+else if (Month[8]<Month[1]&&Month[8]<Month[2]&&Month[8]<Month[3]&&Month[8]<Month[4]&&Month[8]<Month[5]&&Month[8]<Month[6]&&Month[8]<Month[7]&&Month[8]<Month[0]&&Month[8]<Month[9]&&Month[8]<Month[10]&&Month[8]<Month[11])
+cout << "Month[9]: " << Month[8] << endl;
+else if (Month[9]<Month[1]&&Month[9]<Month[2]&&Month[9]<Month[3]&&Month[9]<Month[4]&&Month[9]<Month[5]&&Month[9]<Month[6]&&Month[9]<Month[7]&&Month[9]<Month[8]&&Month[9]<Month[0]&&Month[9]<Month[10]&&Month[9]<Month[11])
+cout << "Month[10]: " << Month[9] << endl;
+else if (Month[10]<Month[1]&&Month[10]<Month[2]&&Month[10]<Month[3]&&Month[10]<Month[4]&&Month[10]<Month[5]&&Month[10]<Month[6]&&Month[10]<Month[7]&&Month[10]<Month[8]&&Month[10]<Month[9]&&Month[10]<Month[0]&&Month[10]<Month[11])
+cout << "Month[11]: " << Month[10] << endl;
+else 
+cout << "Month[12]: " << Month[11] << endl;
+	}
+return 0;
+}

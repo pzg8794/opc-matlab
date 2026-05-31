@@ -1,0 +1,58 @@
+%Lab Number 5, by Piter Garcia
+
+
+
+
+%Lab Number 5, Part A
+
+>> 
+C =
+
+   100     0
+
+ 
+num/den = 
+ 
+   -3.5527e-015 s + 100
+   --------------------
+     s^2 + 10 s + 100
+
+
+
+
+
+
+
+
+%Lab Number 5, Part B
+
+C =
+
+  -100   -10
+
+ 
+num/den = 
+ 
+          s^2
+   ----------------
+   s^2 + 10 s + 100
+
+
+
+
+
+
+
+%Lab Number 5, Part c
+
+C =
+
+     0    10
+
+ 
+num/den = 
+ 
+   10 s - 2.8422e-014
+   ------------------
+    s^2 + 10 s + 100
+

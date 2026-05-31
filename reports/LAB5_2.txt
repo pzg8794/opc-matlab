@@ -1,0 +1,32 @@
+;Lab No 5.2 Submitted to Professor Balaji
+;By Piter Garcia
+
+; BCD TO BINARY
+
+
+	CODE SEGMENT
+	ASSUME CS: CODE
+
+JUMP:	    MOV ECH, 4 
+	    XOR EAX,EAX 	;AX=0
+	    Jz dde
+
+X10:	    SHL EAX, 1
+	    MOV EBX, EAX
+	    MOV ECL, 2
+	    SHL EAX, ECL
+	    ADD EAX, EBX
+
+dde:	    MOV ECL, 4
+	    ROL EDX, ECL
+	    MOV EBX, EDX
+	    AND EBX, 000FH
+	    ADD EAX, EBX
+	    
+	    DEC ECH
+	    JNZ X10 
+
+	    RET
+ CODE ENDS
+ END JUMP
+ END

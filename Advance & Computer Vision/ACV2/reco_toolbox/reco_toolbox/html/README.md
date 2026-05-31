@@ -1,0 +1,75 @@
+<!-- AUTO-GENERATED-PORTFOLIO-README -->
+# html
+
+This index keeps the directory navigable and points each item to its current role.
+
+## Contents
+
+- `demo_denseCOLOR.html` - File, 17.5 KB.
+- `demo_denseCOLOR.png` - File, 4.5 KB.
+- `demo_denseCOLOR_01.png` - File, 65.4 KB.
+- `demo_denseCOLOR_02.png` - File, 75.5 KB.
+- `demo_denseCOLOR_03.png` - File, 6.5 KB.
+- `demo_denseCOLOR_04.png` - File, 232.0 KB.
+- `demo_denseCOLOR_05.png` - File, 231.0 KB.
+- `demo_denseCOLOR_06.png` - File, 8.8 KB.
+- `demo_denseMBLBP.html` - File, 15.5 KB.
+- `demo_denseMBLBP.png` - File, 7.6 KB.
+- `demo_denseMBLBP_01.png` - File, 65.4 KB.
+- `demo_denseMBLBP_02.png` - File, 78.4 KB.
+- `demo_denseMBLBP_03.png` - File, 62.3 KB.
+- `demo_denseMBLDP.html` - File, 15.9 KB.
+- `demo_denseMBLDP.png` - File, 7.2 KB.
+- `demo_denseMBLDP_01.png` - File, 65.4 KB.
+- `demo_denseMBLDP_02.png` - File, 78.4 KB.
+- `demo_denseMBLDP_03.png` - File, 78.8 KB.
+- `demo_densePATCH.html` - File, 11.5 KB.
+- `demo_densePATCH.png` - File, 4.8 KB.
+- `demo_densePATCH_01.png` - File, 65.4 KB.
+- `demo_densePATCH_02.png` - File, 82.8 KB.
+- `demo_densePATCH_03.png` - File, 32.8 KB.
+- `demo_denseSIFT.html` - File, 24.9 KB.
+- `demo_denseSIFT.png` - File, 8.3 KB.
+- `demo_denseSIFT_01.png` - File, 65.4 KB.
+- `demo_denseSIFT_02.png` - File, 87.9 KB.
+- `demo_denseSIFT_03.png` - File, 58.5 KB.
+- `demo_denseSIFT_04.png` - File, 4.9 KB.
+- `demo_denseSIFT_05.png` - File, 232.0 KB.
+- `demo_denseSIFT_06.png` - File, 228.2 KB.
+- `demo_denseSIFT_07.png` - File, 61.9 KB.
+- `demo_mlhmslbp_spyr.html` - File, 23.2 KB.
+- `demo_mlhmslbp_spyr.png` - File, 3.8 KB.
+- `demo_mlhmslbp_spyr_01.png` - File, 65.4 KB.
+- `demo_mlhmslbp_spyr_02.png` - File, 4.8 KB.
+- `demo_mlhmslbp_spyr_03.png` - File, 5.1 KB.
+- `demo_mlhmslbp_spyr_04.png` - File, 5.4 KB.
+- `demo_mlhmslbp_spyr_05.png` - File, 5.4 KB.
+- `demo_mlhmslbp_spyr_06.png` - File, 232.0 KB.
+- `demo_mlhmslbp_spyr_07.png` - File, 5.5 KB.
+- `demo_mlhmsldp_spyr.html` - File, 23.9 KB.
+- `demo_mlhmsldp_spyr.png` - File, 3.0 KB.
+- `demo_mlhmsldp_spyr_01.png` - File, 65.4 KB.
+- `demo_mlhmsldp_spyr_02.png` - File, 4.9 KB.
+- `demo_mlhmsldp_spyr_03.png` - File, 5.2 KB.
+- `demo_mlhmsldp_spyr_04.png` - File, 5.0 KB.
+- `demo_mlhmsldp_spyr_05.png` - File, 5.0 KB.
+- `demo_mlhmsldp_spyr_06.png` - File, 232.0 KB.
+- `demo_mlhmsldp_spyr_07.png` - File, 4.9 KB.
+- `demo_mlhmslsd_spyr.html` - File, 22.1 KB.
+- `demo_mlhmslsd_spyr.png` - File, 9.0 KB.
+- `demo_mlhmslsd_spyr_01.png` - File, 65.4 KB.
+- `demo_mlhmslsd_spyr_02.png` - File, 4.2 KB.
+- `demo_mlhmslsd_spyr_03.png` - File, 3.6 KB.
+- `demo_mlhmslsd_spyr_04.png` - File, 80.5 KB.
+- `demo_mlhmslsd_spyr_05.png` - File, 232.0 KB.
+- `demo_mlhmslsd_spyr_06.png` - File, 4.0 KB.
+- `demo_mlhmslsd_spyr_07.png` - File, 225.6 KB.
+- `demo_mlhmslsd_spyr_08.png` - File, 4.0 KB.
+- `demo_mlhmslsd_spyr_09.png` - File, 218.1 KB.
+- `demo_mlhoee_spyr.html` - File, 16.6 KB.
+- `demo_mlhoee_spyr.png` - File, 4.5 KB.
+- `demo_mlhoee_spyr_01.png` - File, 65.4 KB.
+- `demo_mlhoee_spyr_02.png` - File, 4.8 KB.
+- `demo_mlhoee_spyr_03.png` - File, 5.6 KB.
+- `demo_mlhoee_spyr_04.png` - File, 232.0 KB.
+- `demo_mlhoee_spyr_05.png` - File, 5.8 KB.

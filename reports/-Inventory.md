@@ -1,0 +1,193 @@
+<!-- AUTO-GENERATED-PORTFOLIO-README -->
+# reports
+
+This index keeps the directory navigable and points each item to its current role.
+
+## Contents
+
+- `Advance & Computer Vision/` - Directory containing related files for this portfolio item.
+- `APCG-HW1/` - Directory containing related files for this portfolio item.
+- `EET-327/` - Directory containing related files for this portfolio item.
+- `EET-420/` - Directory containing related files for this portfolio item.
+- `EET418/` - Directory containing related files for this portfolio item.
+- `10.1.1.229.1174.pdf` - File, 1.8 MB.
+- `2012-13 Registration Guide 9-20-12.pdf` - File, 5.4 MB.
+- `5_2 Answer.txt` - File, 1.8 KB.
+- `700_final_examples.pdf` - File, 108.0 KB.
+- `8-2.txt` - File, 6.7 KB.
+- `[README].txt` - File, 382 B.
+- `A.docx` - File, 545.6 KB.
+- `a.txt` - File, 11.5 KB.
+- `aaaaaa.txt` - File, 732 B.
+- `ACV_HW2_KarinaDamico_PeterGarcia.docx` - File, 3.4 MB.
+- `ACV_HW2_KarinaDamico_PeterGarcia.pdf` - File, 558.9 KB.
+- `acv_report.doc` - File, 669.1 KB.
+- `acv_report.docx` - File, 9.1 KB.
+- `acv_report.pdf` - File, 212.4 KB.
+- `bin-ratio-cvpr10 - Scene Category.docx` - File, 1.3 MB.
+- `bin-ratio-cvpr10 - Scene Category.pdf` - File, 1.5 MB.
+- `bin-ratio-cvpr10 - Scene Category_new.rtf` - File, 10.5 MB.
+- `black.txt` - File, 740 B.
+- `CAR SEGMENTATION - Project Progress.pdf` - File, 2.2 MB.
+- `cipher.txt` - File, 292 B.
+- `ColorHistogramPart.docx` - File, 1.3 MB.
+- `ColorHistogramPart.pdf` - File, 5.0 MB.
+- `ColorHistogramPart2.pdf` - File, 2.9 MB.
+- `ColorHistogramPart3.pdf` - File, 2.9 MB.
+- `CryptHW2_FINAL.docx` - File, 67.6 KB.
+- `CryptHW2_FINAL.pdf` - File, 1.0 MB.
+- `cs295p_final_report_yunzhang.pdf` - File, 1.3 MB.
+- `CV HomeWork Number4.pdf` - File, 637.8 KB.
+- `CV-HOMEWORK NUMBER TWO.docx` - File, 18.4 KB.
+- `CV_HW6_PiterGarcia (Autosaved).docx` - File, 1.1 MB.
+- `CV_HW6_PiterGarcia (Autosaved).pdf` - File, 792.2 KB.
+- `CV_HW6_PiterGarcia.docx` - File, 1.1 MB.
+- `CV_HW6_PiterGarcia.pdf` - File, 791.0 KB.
+- `CV_Lec02_MATLAB.pdf` - File, 4.4 MB.
+- `CVHW1.docx` - File, 1.1 MB.
+- `CVHW4.docx` - File, 517.1 KB.
+- `CVPROJECT--from-ACV-ColorHistogramFolder.docx` - File, 2.3 MB.
+- `CVPROJECT--from-ComputerVision-CV-PROJECT.docx` - File, 2.3 MB.
+- `CVPROJECT-1.docx` - File, 2.3 MB.
+- `CVPROJECT-1.pdf` - File, 1.2 MB.
+- `CVPROJECT-2.pdf` - File, 4.2 MB.
+- `CVPROJECT.docx` - File, 2.3 MB.
+- `CVPROJECT.pdf` - File, 1.1 MB.
+- `Document2.docx` - File, 1.9 MB.
+- `ece480_dt3_application_note_dembelef.pdf` - File, 597.2 KB.
+- `EditingReport--from-ColorHistogramFolder-documents-export-2013-02-10.docx` - File, 2.5 MB.
+- `EditingReport.docx` - File, 34.1 KB.
+- `EET - 327 -Lab11.docx` - File, 85.7 KB.
+- `EET - 327 -Lab9.docx` - File, 28.9 KB.
+- `EET-327 lab12.docx` - File, 105.3 KB.
+- `EET-327 lab20.docx` - File, 73.3 KB.
+- `EET-327 LAB53.docx` - File, 123.9 KB.
+- `EET-327 LabNo24.docx` - File, 113.9 KB.
+- `EET-327 LabNo30.docx` - File, 69.8 KB.
+- `EET-327Lab15.docx` - File, 157.5 KB.
+- `EET-327Lab16.docx` - File, 120.3 KB.
+- `exgcd.pdf` - File, 160.5 KB.
+- `ho08.pdf` - File, 100.1 KB.
+- `homework2.pdf` - File, 1.6 MB.
+- `Homework3_1.docx` - File, 1.4 MB.
+- `Homework3_1.pdf` - File, 1.5 MB.
+- `HW1_AdvancedCV.docx` - File, 554.3 KB.
+- `HW1_AdvancedCV.pdf` - File, 649.1 KB.
+- `hw2.docx` - File, 1.1 MB.
+- `hw2.pdf` - File, 1.3 MB.
+- `HW30.txt` - File, 190 B.
+- `Hw3_3.docx` - File, 339.5 KB.
+- `Hw3_3.pdf` - File, 501.5 KB.
+- `ieee.bib` - File, 1.8 KB.
+- `ieee.cls` - File, 57.8 KB.
+- `ieee.tex` - File, 30.2 KB.
+- `ieeeOrig.tex` - File, 39.0 KB.
+- `InfoNetSec05_Ex1_sol.pdf` - File, 81.7 KB.
+- `input.txt` - File, 742 B.
+- `installer_input.txt` - File, 9.1 KB.
+- `job4.0.txt` - File, 772 B.
+- `lab 10.docx` - File, 58.7 KB.
+- `lab 14.docx` - File, 51.7 KB.
+- `LAB 5.docx` - File, 38.9 KB.
+- `lab 5a.docx` - File, 11.8 KB.
+- `lab 6.txt` - File, 2.1 KB.
+- `Lab 7.docx` - File, 12.3 KB.
+- `LAB#10.doc` - File, 28.0 KB.
+- `LAB#5.doc` - File, 22.5 KB.
+- `Lab10.m.txt` - File, 794 B.
+- `Lab10.txt` - File, 794 B.
+- `lab101answers.txt` - File, 1.1 KB.
+- `LAB10answers.txt` - File, 2.3 KB.
+- `lab10conclusion.doc` - File, 15.5 KB.
+- `LAB11.0.txt` - File, 2.0 KB.
+- `lab11.docx` - File, 38.4 KB.
+- `LAB12.docx` - File, 67.5 KB.
+- `LAB12_1 OUTPUT.txt` - File, 1.8 KB.
+- `LAB12B_Answer.txt` - File, 1.2 KB.
+- `lab13.docx` - File, 36.8 KB.
+- `lab15.docx` - File, 66.2 KB.
+- `lab15.rtf` - File, 2.9 KB.
+- `lab15a_answer.txt` - File, 1.4 KB.
+- `lab16.docx` - File, 37.1 KB.
+- `lab25.txt` - File, 971 B.
+- `lab25t.txt` - File, 979 B.
+- `Lab2B.txt` - File, 575 B.
+- `lab3.docx` - File, 64.1 KB.
+- `lab3.txt` - File, 166 B.
+- `lab4--from-418l-lab-reports.docx` - File, 97.6 KB.
+- `lab4.docx` - File, 68.7 KB.
+- `Lab4A.txt` - File, 575 B.
+- `Lab4b.txt` - File, 2.5 KB.
+- `Lab4o.txt` - File, 1007 B.
+- `Lab4o1.txt` - File, 876 B.
+- `lab5-2A.txt` - File, 572 B.
+- `lab5-2b.txt` - File, 592 B.
+- `lab5-2c.txt` - File, 532 B.
+- `LAB5-ANSWER.txt` - File, 1.1 KB.
+- `lab51answers.txt` - File, 473 B.
+- `LAB5_2.txt` - File, 453 B.
+- `Lab5_cir1.txt` - File, 1.3 KB.
+- `Lab5_cir2.txt` - File, 1.3 KB.
+- `Lab5_cir3.txt` - File, 1.3 KB.
+- `LAB6-A ANSWERS.txt` - File, 676 B.
+- `LAB6-A.txt` - File, 277 B.
+- `LAB6-ANSWERS.txt` - File, 676 B.
+- `LAB6-B.txt` - File, 159 B.
+- `LAB6.docx` - File, 64.1 KB.
+- `Lab6.txt` - File, 2.4 KB.
+- `LAB6_B-Answers.txt` - File, 551 B.
+- `LAB6_C.txt` - File, 695 B.
+- `LAB6_OUTPUT.txt` - File, 3.3 KB.
+- `lab6a.txt` - File, 226 B.
+- `lab6b.txt` - File, 92 B.
+- `LAB6C-ANSWERS.txt` - File, 7.0 KB.
+- `lab6c.txt` - File, 668 B.
+- `lab6conclusion.docx` - File, 4.6 KB.
+- `Lab7-Conclusion.docx` - File, 4.6 KB.
+- `lab7.docx` - File, 62.2 KB.
+- `Lab7.txt` - File, 1.1 KB.
+- `lab7_3answers.txt` - File, 286 B.
+- `Lab7_3R80Answers.txt` - File, 307 B.
+- `Lab7_Output.txt` - File, 4.0 KB.
+- `Lab7_R=20.txt` - File, 1.2 KB.
+- `Lab8--from-EET-420-EET-420-Labs.docx` - File, 14.2 KB.
+- `lab8-1answers.txt` - File, 2.0 KB.
+- `lab8-2 answers.txt` - File, 1.9 KB.
+- `lab8.docx` - File, 38.8 KB.
+- `Lab8_part3.txt` - File, 1.2 KB.
+- `Lab9--from-EET-420-EET-420-Labs.txt` - File, 1.6 KB.
+- `lab9-Answers.txt` - File, 2.0 KB.
+- `lab9.docx` - File, 39.1 KB.
+- `lab9.txt` - File, 1.0 KB.
+- `lec21.pdf` - File, 59.9 KB.
+- `license--from-APCG-HW1-abSIRD_for_Matlab.txt` - File, 1.5 KB.
+- `license--from-APCG-HW1-stereogram.txt` - File, 1.3 KB.
+- `license.txt` - File, 1.3 KB.
+- `New Text Document (1).txt` - File, 0 B.
+- `New Text Document (2).txt` - File, 0 B.
+- `New Text Document (3).txt` - File, 0 B.
+- `New Text Document (4).txt` - File, 209 B.
+- `New Text Document (5).txt` - File, 0 B.
+- `New Text Document.txt` - File, 0 B.
+- `NewVisa-NewDS2019.pdf` - File, 3.1 MB.
+- `output.txt` - File, 5.0 KB.
+- `Piter Garcia - update2.pdf` - File, 1.4 MB.
+- `practiceMidterm.pdf` - File, 32.5 KB.
+- `practiceMidtermSolutions.pdf` - File, 44.5 KB.
+- `README--from-ACV2-DT-OC5.txt` - File, 581 B.
+- `readme.txt` - File, 18.9 KB.
+- `report.doc` - File, 1.3 MB.
+- `Report.docx` - File, 14.8 KB.
+- `Report.odt` - File, 17.7 KB.
+- `Report.pdf` - File, 1.1 MB.
+- `Report3.pdf` - File, 1.6 MB.
+- `saved.txt` - File, 1.8 KB.
+- `scan0001.pdf` - File, 2.0 MB.
+- `Shetty_Prajwal.pdf` - File, 690.1 KB.
+- `suryadevara-hw3.doc` - File, 46.0 KB.
+- `Tracking Cars Using Optical Flow.docx` - File, 164.3 KB.
+- `TuringMachine.pdf` - File, 32.2 KB.
+- `tut4-q4+5.doc` - File, 25.0 KB.
+- `Update3.odt` - File, 554.6 KB.
+- `Update4.pdf` - File, 588.5 KB.
+- `Visit Canada as a tourist.docx` - File, 128.1 KB.

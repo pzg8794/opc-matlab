@@ -1,0 +1,30 @@
+;BCDBIN
+;BCD TO BINARY SUBROUTINE
+;ASSUME 4 DIGIT BCD NUMBER IS IN DX REGISTER.
+;BINARY ANSWER IS RETURNED IN THE AX REGISTER
+
+CODE SEGMENT
+
+	ASSUME  CS:CODE
+
+BCDBIN: XOR     AX,AX   ;AX=0 
+	MOV     CH,4
+
+X10:    SHL     AX,1    ;T
+	MOV     BX,AX   ; I  
+	MOV     CL,2    ;  M
+	SHL     AX,CL   ;   E
+	ADD     AX,BX   ;    S    10
+
+	MOV     CL,4    ;A
+	ROL     DX,CL   ; D
+	MOV     BX,DX   ;  D
+	AND     BX,000FH;     DIGIT
+	ADD     AX,BX   ;
+
+	DEC     CH
+	JNZ     X10
+	RET
+CODE ENDS
+END BCDBIN
+	END     

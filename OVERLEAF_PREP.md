@@ -1,24 +1,351 @@
-# Overleaf Preparation
+<!-- AUTO-GENERATED-PORTFOLIO-README -->
+# Overleaf Prep
 
-Repository: `opc-matlab`
+Paper, report, and presentation files imported into GitHub are grouped here for later Overleaf conversion.
 
-Drive source: https://drive.google.com/drive/folders/1iOzNvYr8ff47j9TUNQCwVBjhzIUspre4
+## Papers
 
-## Classified Material Counts
+- `papers/Advance & Computer Vision/ACV/ACV-Proposal/Research Project Proposal - ACV.docx`
+- `papers/Advance & Computer Vision/ACV/ACV-Proposal/Research Project Proposal - ACV.pdf`
+- `papers/Advance & Computer Vision/ACV/ACV-Proposal/Research Project Proposal.docx`
+- `papers/Advance & Computer Vision/ACV/~$search Project Proposal.docx`
+- `papers/Advance & Computer Vision/ACV2/Proposal.docx`
+- `papers/Advance & Computer Vision/ComputerVision/CV-PROJECT/CV-PROJECT STUFF/cvproposal.docx`
+- `papers/Advance & Computer Vision/ComputerVision/CV-PROJECT/CV-PROJECT STUFF/~$proposal.docx`
+- `papers/cvproposal.docx`
+- `papers/Proposal--from-ColorHistogramFolder-documents-export-2013-02-10.docx`
+- `papers/Proposal.docx`
+- `papers/Proposal.pdf`
+- `papers/Research Project Proposal - ACV.docx`
+- `papers/Research Project Proposal - ACV.pdf`
+- `papers/Research Project Proposal.docx`
 
-- `papers/`: 7 file(s)
-- `reports/`: 89 file(s)
-- `presentations/`: 26 file(s)
+## Reports
 
-## Conversion Workflow
+- `reports/10.1.1.229.1174.pdf`
+- `reports/2012-13 Registration Guide 9-20-12.pdf`
+- `reports/5_2 Answer.txt`
+- `reports/700_final_examples.pdf`
+- `reports/8-2.txt`
+- `reports/[README].txt`
+- `reports/A.docx`
+- `reports/a.txt`
+- `reports/aaaaaa.txt`
+- `reports/ACV_HW2_KarinaDamico_PeterGarcia.docx`
+- `reports/ACV_HW2_KarinaDamico_PeterGarcia.pdf`
+- `reports/acv_report.doc`
+- `reports/acv_report.docx`
+- `reports/acv_report.pdf`
+- `reports/Advance & Computer Vision/ACV/ACV-Stuff/cs295p_final_report_yunzhang.pdf`
+- `reports/Advance & Computer Vision/ACV2/CV_Lec02_MATLAB.pdf`
+- `reports/Advance & Computer Vision/ACV2/EditingReport.docx`
+- `reports/Advance & Computer Vision/ACV2/homework2.pdf`
+- `reports/Advance & Computer Vision/ACV2/Latex/Report.pdf`
+- `reports/Advance & Computer Vision/ComputerVision/hw2/CV-HOMEWORK NUMBER TWO.docx`
+- `reports/Advance & Computer Vision/ComputerVision/Hw3_1/Homework3_1.docx`
+- `reports/Advance & Computer Vision/ComputerVision/Hw3_1/Homework3_1.pdf`
+- `reports/Advance & Computer Vision/ComputerVision/hw4/CV HomeWork Number4.pdf`
+- `reports/Advance & Computer Vision/CVStuff/CV-HOMEWORK NUMBER TWO.docx`
+- `reports/APCG-HW1/abSIRD_for_Matlab/license.txt`
+- `reports/bin-ratio-cvpr10 - Scene Category.docx`
+- `reports/bin-ratio-cvpr10 - Scene Category.pdf`
+- `reports/bin-ratio-cvpr10 - Scene Category_new.rtf`
+- `reports/black.txt`
+- `reports/CAR SEGMENTATION - Project Progress.pdf`
+- `reports/cipher.txt`
+- `reports/ColorHistogramPart.docx`
+- `reports/ColorHistogramPart.pdf`
+- `reports/ColorHistogramPart2.pdf`
+- `reports/ColorHistogramPart3.pdf`
+- `reports/CryptHW2_FINAL.docx`
+- `reports/CryptHW2_FINAL.pdf`
+- `reports/cs295p_final_report_yunzhang.pdf`
+- `reports/CV HomeWork Number4.pdf`
+- `reports/CV-HOMEWORK NUMBER TWO.docx`
+- `reports/CV_HW6_PiterGarcia (Autosaved).docx`
+- `reports/CV_HW6_PiterGarcia (Autosaved).pdf`
+- `reports/CV_HW6_PiterGarcia.docx`
+- `reports/CV_HW6_PiterGarcia.pdf`
+- `reports/CV_Lec02_MATLAB.pdf`
+- `reports/CVHW1.docx`
+- `reports/CVHW4.docx`
+- `reports/CVPROJECT--from-ACV-ColorHistogramFolder.docx`
+- `reports/CVPROJECT--from-ComputerVision-CV-PROJECT.docx`
+- `reports/CVPROJECT-1.docx`
+- `reports/CVPROJECT-1.pdf`
+- `reports/CVPROJECT-2.pdf`
+- `reports/CVPROJECT.docx`
+- `reports/CVPROJECT.pdf`
+- `reports/Document2.docx`
+- `reports/ece480_dt3_application_note_dembelef.pdf`
+- `reports/EditingReport--from-ColorHistogramFolder-documents-export-2013-02-10.docx`
+- `reports/EditingReport.docx`
+- `reports/EET - 327 -Lab11.docx`
+- `reports/EET - 327 -Lab9.docx`
+- `reports/EET-327 lab12.docx`
+- `reports/EET-327 lab20.docx`
+- `reports/EET-327 LAB53.docx`
+- `reports/EET-327 LabNo24.docx`
+- `reports/EET-327 LabNo30.docx`
+- `reports/EET-327/EET - 327 -Lab11.docx`
+- `reports/EET-327/EET - 327 -Lab9.docx`
+- `reports/EET-327/EET-327 lab12.docx`
+- `reports/EET-327/EET-327 lab20.docx`
+- `reports/EET-327/EET-327 LAB53.docx`
+- `reports/EET-327/EET-327 LabNo24.docx`
+- `reports/EET-327/EET-327 LabNo30.docx`
+- `reports/EET-327/EET-327Lab15.docx`
+- `reports/EET-327/EET-327Lab16.docx`
+- `reports/EET-327Lab15.docx`
+- `reports/EET-327Lab16.docx`
+- `reports/EET-420/420piter labs/EET-420/Lab10/lab10conclusion.doc`
+- `reports/EET-420/420piter labs/EET-420/Lab6/LAB6-A.txt`
+- `reports/EET-420/420piter labs/EET-420/Lab6/LAB6-ANSWERS.txt`
+- `reports/EET-420/420piter labs/EET-420/Lab6/LAB6-B.txt`
+- `reports/EET-420/420piter labs/EET-420/Lab6/lab6a.txt`
+- `reports/EET-420/420piter labs/EET-420/Lab6/lab6b.txt`
+- `reports/EET-420/420piter labs/EET-420/Lab6/LAB6C-ANSWERS.txt`
+- `reports/EET-420/420piter labs/Lab10.m.txt`
+- `reports/EET-420/420piter labs/Lab4/Lab4o.txt`
+- `reports/EET-420/420piter labs/Lab4/Lab4o1.txt`
+- `reports/EET-420/420piter labs/lab5-EET420/lab5-2A.txt`
+- `reports/EET-420/420piter labs/lab5-EET420/lab5-2b.txt`
+- `reports/EET-420/420piter labs/lab5-EET420/lab5-2c.txt`
+- `reports/EET-420/420piter labs/lab5-EET420/lab51answers.txt`
+- `reports/EET-420/420piter labs/Lab6/LAB6-A ANSWERS.txt`
+- `reports/EET-420/420piter labs/Lab6/LAB6-A.txt`
+- `reports/EET-420/420piter labs/Lab6/LAB6-B.txt`
+- `reports/EET-420/420piter labs/Lab6/LAB6_B-Answers.txt`
+- `reports/EET-420/420piter labs/Lab6/LAB6_C.txt`
+- `reports/EET-420/420piter labs/Lab6/lab6a.txt`
+- `reports/EET-420/420piter labs/Lab6/lab6b.txt`
+- `reports/EET-420/420piter labs/Lab6/LAB6C-ANSWERS.txt`
+- `reports/EET-420/420piter labs/Lab6/lab6c.txt`
+- `reports/EET-420/420piter labs/Lab6/lab6conclusion.docx`
+- `reports/EET-420/420piter labs/Lab7/Lab7-Conclusion.docx`
+- `reports/EET-420/420piter labs/Lab7/lab7_3answers.txt`
+- `reports/EET-420/420piter labs/Lab7/Lab7_3R80Answers.txt`
+- `reports/EET-420/EET 420 Labs/LAB#10.doc`
+- `reports/EET-420/EET 420 Labs/LAB#5.doc`
+- `reports/EET-420/EET 420 Labs/Lab10.txt`
+- `reports/EET-420/EET 420 Labs/Lab2B.txt`
+- `reports/EET-420/EET 420 Labs/Lab4A.txt`
+- `reports/EET-420/EET 420 Labs/Lab4b.txt`
+- `reports/EET-420/EET 420 Labs/Lab5_cir1.txt`
+- `reports/EET-420/EET 420 Labs/Lab5_cir2.txt`
+- `reports/EET-420/EET 420 Labs/Lab5_cir3.txt`
+- `reports/EET-420/EET 420 Labs/Lab6.txt`
+- `reports/EET-420/EET 420 Labs/Lab7.txt`
+- `reports/EET-420/EET 420 Labs/Lab7_R=20.txt`
+- `reports/EET-420/EET 420 Labs/Lab8.docx`
+- `reports/EET-420/EET 420 Labs/Lab8_part3.txt`
+- `reports/EET-420/EET 420 Labs/Lab9.txt`
+- `reports/EET418/418Labs/EET-418/job4.0.txt`
+- `reports/EET418/418Labs/EET-418/Lab 7.docx`
+- `reports/EET418/418Labs/EET-418/LAB11.0.txt`
+- `reports/EET418/418Labs/EET418labs/418l/8-2.txt`
+- `reports/EET418/418Labs/EET418labs/418l/lab15.rtf`
+- `reports/EET418/EET-418/Lab12/LAB12_1 OUTPUT.txt`
+- `reports/EET418/EET-418/Lab3/New Text Document.txt`
+- `reports/EET418/EET-418/Lab4/5_2 Answer.txt`
+- `reports/EET418/EET-418/Lab4/Lab4o.txt`
+- `reports/EET418/EET-418/Lab4/Lab4o1.txt`
+- `reports/EET418/EET-418/Lab5/LAB5-ANSWER.txt`
+- `reports/EET418/EET-418/Lab5/LAB5_2.txt`
+- `reports/EET418/EET-418II/lab25.txt`
+- `reports/EET418/EET-418II/lab25t.txt`
+- `reports/EET418/ET-418L-Piter Complete Labs/Lab10/Lab10/lab101answers.txt`
+- `reports/EET418/ET-418L-Piter Complete Labs/Lab10/Lab10/LAB10answers.txt`
+- `reports/EET418/ET-418L-Piter Complete Labs/Lab12/LAB12_1 OUTPUT.txt`
+- `reports/EET418/ET-418L-Piter Complete Labs/Lab12/LAB12B_Answer.txt`
+- `reports/EET418/ET-418L-Piter Complete Labs/Lab15/lab15a_answer.txt`
+- `reports/EET418/Incomplete Labs 418/New Folder/New Folder/lab101answers.txt`
+- `reports/EET418/Incomplete Labs 418/New Folder/New Folder/LAB10answers.txt`
+- `reports/EET418/LAB 5.docx`
+- `reports/EET418/lab 6.txt`
+- `reports/EET418/lab3.docx`
+- `reports/EET418/lab3.txt`
+- `reports/EET418/lab4.docx`
+- `reports/EET418/Test2-Review/lab16.docx`
+- `reports/exgcd.pdf`
+- `reports/ho08.pdf`
+- `reports/homework2.pdf`
+- `reports/Homework3_1.docx`
+- `reports/Homework3_1.pdf`
+- `reports/HW1_AdvancedCV.docx`
+- `reports/HW1_AdvancedCV.pdf`
+- `reports/hw2.docx`
+- `reports/hw2.pdf`
+- `reports/HW30.txt`
+- `reports/Hw3_3.docx`
+- `reports/Hw3_3.pdf`
+- `reports/ieee.bib`
+- `reports/ieee.cls`
+- `reports/ieee.tex`
+- `reports/ieeeOrig.tex`
+- `reports/InfoNetSec05_Ex1_sol.pdf`
+- `reports/input.txt`
+- `reports/installer_input.txt`
+- `reports/job4.0.txt`
+- `reports/lab 10.docx`
+- `reports/lab 14.docx`
+- `reports/LAB 5.docx`
+- `reports/lab 5a.docx`
+- `reports/lab 6.txt`
+- `reports/Lab 7.docx`
+- `reports/LAB#10.doc`
+- `reports/LAB#5.doc`
+- `reports/Lab10.m.txt`
+- `reports/Lab10.txt`
+- `reports/lab101answers.txt`
+- `reports/LAB10answers.txt`
+- `reports/lab10conclusion.doc`
+- `reports/LAB11.0.txt`
+- `reports/lab11.docx`
+- `reports/LAB12.docx`
+- `reports/LAB12_1 OUTPUT.txt`
+- `reports/LAB12B_Answer.txt`
+- `reports/lab13.docx`
+- `reports/lab15.docx`
+- `reports/lab15.rtf`
+- `reports/lab15a_answer.txt`
+- `reports/lab16.docx`
+- `reports/lab25.txt`
+- `reports/lab25t.txt`
+- `reports/Lab2B.txt`
+- `reports/lab3.docx`
+- `reports/lab3.txt`
+- `reports/lab4--from-418l-lab-reports.docx`
+- `reports/lab4.docx`
+- `reports/Lab4A.txt`
+- `reports/Lab4b.txt`
+- `reports/Lab4o.txt`
+- `reports/Lab4o1.txt`
+- `reports/lab5-2A.txt`
+- `reports/lab5-2b.txt`
+- `reports/lab5-2c.txt`
+- `reports/LAB5-ANSWER.txt`
+- `reports/lab51answers.txt`
+- `reports/LAB5_2.txt`
+- `reports/Lab5_cir1.txt`
+- `reports/Lab5_cir2.txt`
+- `reports/Lab5_cir3.txt`
+- `reports/LAB6-A ANSWERS.txt`
+- `reports/LAB6-A.txt`
+- `reports/LAB6-ANSWERS.txt`
+- `reports/LAB6-B.txt`
+- `reports/LAB6.docx`
+- `reports/Lab6.txt`
+- `reports/LAB6_B-Answers.txt`
+- `reports/LAB6_C.txt`
+- `reports/LAB6_OUTPUT.txt`
+- `reports/lab6a.txt`
+- `reports/lab6b.txt`
+- `reports/LAB6C-ANSWERS.txt`
+- `reports/lab6c.txt`
+- `reports/lab6conclusion.docx`
+- `reports/Lab7-Conclusion.docx`
+- `reports/lab7.docx`
+- `reports/Lab7.txt`
+- `reports/lab7_3answers.txt`
+- `reports/Lab7_3R80Answers.txt`
+- `reports/Lab7_Output.txt`
+- `reports/Lab7_R=20.txt`
+- `reports/Lab8--from-EET-420-EET-420-Labs.docx`
+- `reports/lab8-1answers.txt`
+- `reports/lab8-2 answers.txt`
+- `reports/lab8.docx`
+- `reports/Lab8_part3.txt`
+- `reports/Lab9--from-EET-420-EET-420-Labs.txt`
+- `reports/lab9-Answers.txt`
+- `reports/lab9.docx`
+- `reports/lab9.txt`
+- `reports/lec21.pdf`
+- `reports/license--from-APCG-HW1-abSIRD_for_Matlab.txt`
+- `reports/license--from-APCG-HW1-stereogram.txt`
+- `reports/license.txt`
+- `reports/New Text Document (1).txt`
+- `reports/New Text Document (2).txt`
+- `reports/New Text Document (3).txt`
+- `reports/New Text Document (4).txt`
+- `reports/New Text Document (5).txt`
+- `reports/New Text Document.txt`
+- `reports/NewVisa-NewDS2019.pdf`
+- `reports/output.txt`
+- `reports/Piter Garcia - update2.pdf`
+- `reports/practiceMidterm.pdf`
+- `reports/practiceMidtermSolutions.pdf`
+- `reports/README--from-ACV2-DT-OC5.txt`
+- `reports/readme.txt`
+- `reports/report.doc`
+- `reports/Report.docx`
+- `reports/Report.odt`
+- `reports/Report.pdf`
+- `reports/Report3.pdf`
+- `reports/saved.txt`
+- `reports/scan0001.pdf`
+- `reports/Shetty_Prajwal.pdf`
+- `reports/suryadevara-hw3.doc`
+- `reports/Tracking Cars Using Optical Flow.docx`
+- `reports/TuringMachine.pdf`
+- `reports/tut4-q4+5.doc`
+- `reports/Update3.odt`
+- `reports/Update4.pdf`
+- `reports/Visit Canada as a tourist.docx`
 
-1. Start with source files in `papers/`, `reports/`, or `presentations/`.
-2. Prefer existing `.tex` files when present.
-3. For `.doc`, `.docx`, `.rtf`, `.ppt`, or `.pptx`, convert into LaTeX/Beamer later and keep the original in its current directory.
-4. Use PDFs as reference outputs, not editable sources, unless no source document exists.
+## Presentations
 
-## Move Summary
-
-- Moved into `papers/`: 7 file(s) in this cleanup pass
-- Moved into `reports/`: 89 file(s) in this cleanup pass
-- Moved into `presentations/`: 26 file(s) in this cleanup pass
+- `presentations/Advance & Computer Vision/ACV/ACV-HW3/Presentation-hw3.docx`
+- `presentations/Advance & Computer Vision/ACV/ACV-HW3/Presentation-hw3.pdf`
+- `presentations/Advance & Computer Vision/ACV/ACV-HW3/Presentation-hw3.pptx`
+- `presentations/Advance & Computer Vision/ACV/ACV-Proposal/Research Project Proposal-Presentation.pdf`
+- `presentations/Advance & Computer Vision/ACV/ACV-Proposal/Research Project Proposal-Presentation.pptx`
+- `presentations/Advance & Computer Vision/ACV/Piter Garcia - update2.pptx`
+- `presentations/Advance & Computer Vision/ACV/Update1 (1).pptx`
+- `presentations/Advance & Computer Vision/ACV/Update1.pptx`
+- `presentations/Advance & Computer Vision/ACV2/BIIS2011_1Lec02-1.pptx`
+- `presentations/Advance & Computer Vision/ACV2/Final_Presentation-1.pptx`
+- `presentations/Advance & Computer Vision/ACV2/Final_Presentation-2.pdf`
+- `presentations/Advance & Computer Vision/ACV2/Final_Presentation-2.pptx`
+- `presentations/Advance & Computer Vision/ACV2/Final_Presentation.pptx`
+- `presentations/Advance & Computer Vision/ACV2/FinalPresentation.png`
+- `presentations/Advance & Computer Vision/ACV2/Piter Garcia - update2.pptx`
+- `presentations/Advance & Computer Vision/ACV2/Presentation.pptx`
+- `presentations/Advance & Computer Vision/ACV2/Presentation1.pptx`
+- `presentations/Advance & Computer Vision/ACV2/Presentation2.pptx`
+- `presentations/Advance & Computer Vision/ACV2/Update1.pptx`
+- `presentations/Advance & Computer Vision/ACV2/Update3.pptx`
+- `presentations/Advance & Computer Vision/ComputerVision/CV-PROJECT/CV-PROJECT STUFF/CAR SEGMENTATION - Project Progress.pptx`
+- `presentations/Advance & Computer Vision/ComputerVision/CV-PROJECT/CV-PROJECT STUFF/pptproporsalpresentation.pptx`
+- `presentations/Advance & Computer Vision/ComputerVision/CV-PROJECT/CV-PROJECT STUFF/~$CAR SEGMENTATION - Project Progress.pptx`
+- `presentations/Advance & Computer Vision/ComputerVision/CV-PROJECT/CV-PROJECT STUFF/~$pptproporsalpresentation.pptx`
+- `presentations/BIIS2011_1Lec02-1.pptx`
+- `presentations/CAR SEGMENTATION - Project Progress.pptx`
+- `presentations/EET418/EET-418II/EET418_ClassVisit.ppt`
+- `presentations/EET418/EET-418II/Lab5155.ppt`
+- `presentations/EET418_ClassVisit.ppt`
+- `presentations/Final_Presentation--from-ColorHistogramFolder-documents-export-2013-02-10.pptx`
+- `presentations/Final_Presentation-1.pptx`
+- `presentations/Final_Presentation-2.pdf`
+- `presentations/Final_Presentation-2.pptx`
+- `presentations/Final_Presentation.pptx`
+- `presentations/Lab5155.ppt`
+- `presentations/Piter Garcia - update2--from-ColorHistogramFolder-documents-export-2013-02-10.pptx`
+- `presentations/Piter Garcia - update2.pptx`
+- `presentations/pptproporsalpresentation.pptx`
+- `presentations/Presentation-hw3.docx`
+- `presentations/Presentation-hw3.pdf`
+- `presentations/Presentation-hw3.pptx`
+- `presentations/Presentation.pptx`
+- `presentations/Presentation1.pptx`
+- `presentations/Presentation2.pptx`
+- `presentations/Research Project Proposal-Presentation.pdf`
+- `presentations/Research Project Proposal-Presentation.pptx`
+- `presentations/Update1 (1).pptx`
+- `presentations/Update1(2).pptx`
+- `presentations/Update1--from-ColorHistogramFolder-documents-export-2013-02-10.pptx`
+- `presentations/Update1.pptx`
+- `presentations/Update2.pptx`
+- `presentations/Update3--from-ColorHistogramFolder-documents-export-2013-02-10.pptx`
+- `presentations/Update3.pptx`
+- `presentations/Update4.pptx`
