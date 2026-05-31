@@ -1,0 +1,27 @@
+ File  View  Search  Run  Watch  Options  Language  Calls  Help ¦ F8=Trace F5=G
+------------------------------¦  ¦---------------------------------------------
+5173:0000 B504           MOV       CH,04                          ? EAX=05397FB1
+5173:0002 6633C0         XOR       EAX,EAX                        ¦ EBX=00000000
+5173:0005 0F840E00       JE        0017                           ¦ ECX=00000000
+5173:0009 66D1E0         SHL       EAX,1                          ¦ EDX=00000000
+5173:000C 668BD8         MOV       EBX,EAX                        ¦ ESP=00000000
+5173:000F B102           MOV       CL,02                          ¦ EBP=00000000
+5173:0011 66D3E0         SHL       EAX,CL                         ¦ ESI=00000000
+5173:0014 6603C3         ADD       EAX,EBX                        ¦ EDI=00000000
+5173:0017 B104           MOV       CL,04                          ¦  DS=....50FA
+5173:0019 66D3C2         ROL       EDX,CL                         ¦  ES=....50FA
+5173:001C 668BDA         MOV       EBX,EDX                        ¦  FS=....0000
+5173:001F 6683E30F       AND       EBX,+0F                        ¦  GS=....0000
+5173:0023 6603C3         ADD       EAX,EBX                        ¦  SS=....510A
+5173:0026 FECD           DEC       CH                             ¦  CS=....510A
+5173:0028 75DF           JNZ       0009                           ¦  IP=00000029
+5173:002A C3             RET                                      ¦
+5173:002B 0000           ADD       Byte Ptr [BX+SI],AL            ¦     NV UP
+5173:002D 0000           ADD       Byte Ptr [BX+SI],AL            ¦     EI PL
+5173:002F 0000           ADD       Byte Ptr [BX+SI],AL            ¦     NZ NA
+5173:0031 0000           ADD       Byte Ptr [BX+SI],AL            ¦     PO NC
+----------------------------------------------------------------?-¦
+386 ON 
+>BP 002A
+REDX 87654321
+>

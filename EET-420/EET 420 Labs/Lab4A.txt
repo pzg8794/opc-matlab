@@ -1,0 +1,45 @@
+RENNIE SOODOO Lab 4
+
+
+Math Commands
+
+x1=[0 0 10]; y1=[1 10 0]; sys1=tf(x1,y1)
+
+x2=[0 4 12]; y2=[0 1 0]; sys2=tf(x2,y2)
+
+sysfb1=feedback(sys1,[1])
+
+syss=series(sys2,sysfb1)
+
+sysfin=feedback(syss,[1])
+
+
+Transfer function:
+    10
+----------
+s^2 + 10 s
+ 
+ 
+Transfer function:
+4 s + 12
+--------
+   s
+ 
+ 
+Transfer function:
+      10
+---------------
+s^2 + 10 s + 10
+ 
+ 
+Transfer function:
+    40 s + 120
+-------------------
+s^3 + 10 s^2 + 10 s
+ 
+ 
+Transfer function:
+       40 s + 120
+-------------------------
+s^3 + 10 s^2 + 50 s + 120
+ 

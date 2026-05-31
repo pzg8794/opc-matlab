@@ -1,0 +1,20 @@
+;Steeve Bissereth
+;Algorithm for approximating square root of I^2+J^2
+
+CODE SEGMENT
+
+ASSUME CS:CODE
+
+I2J2: CMP AX,BX
+      JC DIVIDE
+      SHR BX,1
+      JMP CONT
+      
+DIVIDE: SHR AX,1
+
+CONT:   ADD AX,BX
+        RET
+
+CODE ENDS
+END I2J2
+END

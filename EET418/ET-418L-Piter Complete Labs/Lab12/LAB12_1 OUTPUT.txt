@@ -1,0 +1,50 @@
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+
+Type '?' for  80286]
+-U
+1A27:0000 B8261A         MOV    AX,1A26
+1A27:0003 8ED8           MOV    DS,AX
+1A27:0005 250000         AND    AX,0000
+1A27:0008 A00000         MOV    AL,[0000]
+1A27:000B 8A1E0100       MOV    BL,[0001]
+1A27:000F F6E3           MUL    BL
+1A27:0011 83E300         AND    BX,+00
+1A27:0014 8A1E0200       MOV    BL,[0002]
+-U
+1A27:0018 F7E3           MUL    BX
+1A27:001A F4             HLT
+1A27:001B 0450           ADD    AL,50                         ;'P'
+1A27:001D E812AA         CALL   AA32
+1A27:0020 83C402         ADD    SP,+02
+1A27:0023 E905FF         JMP    FF2B
+1A27:0026 803E273D00     CMP    Byte Ptr [3D27],00
+1A27:002B 7410           JZ     003D
+-BP 1A
+-G
+AX=D721  BX=00EF  CX=002B  DX=007F  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A26  ES=1A16  SS=1A26  CS=1A27  IP=001A   OV UP EI NG NZ NA PE CY
+1A27:001A F4             HLT                                  ;BR0
+-RAX FFFF
+-RBX FFFF
+-RCX FFFF
+-RDX FFFF
+-G=0
+AX=D721  BX=00EF  CX=FFFF  DX=007F  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A26  ES=1A16  SS=1A26  CS=1A27  IP=001A   OV UP EI NG NZ NA PE CY
+1A27:001A F4             HLT                                  ;BR0
+-
+-E0
+1A26:0000  AB.
+-G=0
+AX=D721  BX=00EF  CX=FFFF  DX=007F  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A26  ES=1A16  SS=1A26  CS=1A27  IP=001A   OV UP EI NG NZ NA PE CY
+1A27:001A F4             HLT                                  ;BR0
+-E0
+1A26:0000  AB.12   CD.23   EF.34
+-G=0
+AX=7FF8  BX=0034  CX=FFFF  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A26  ES=1A16  SS=1A26  CS=1A27  IP=001A   NV UP EI PL NZ NA PO NC
+1A27:001A F4             HLT                                  ;BR0
+-

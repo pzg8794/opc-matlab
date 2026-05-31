@@ -1,0 +1,19 @@
+.
+.     Type a question mark (?) to get a Debug HELP screen.
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+
+Type '?' for  80286]
+-bp 6
+-rax ffff
+-g
+AX=FFFF  BX=8000  CX=0007  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A1F  ES=1A1F  SS=1A2F  CS=1A2F  IP=0006   NV UP EI NG NZ NA PE NC
+1A2F:0006 C3             RET                                  ;BR0
+-rax abcd
+-g=0
+AX=ABCD  BX=FE2B  CX=0007  DX=0000  SP=0000  BP=0000  SI=0000  DI=0000
+DS=1A1F  ES=1A1F  SS=1A2F  CS=1A2F  IP=0006   NV UP EI NG NZ NA PE NC
+1A2F:0006 C3             RET                                  ;BR0
+-

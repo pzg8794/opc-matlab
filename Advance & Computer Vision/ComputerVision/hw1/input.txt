@@ -1,0 +1,35 @@
+%Title  : Homework Number 1
+%Subject: Computer Vision
+%Author : Piter Garcia
+
+A=imread('OrangeFlower.jpg');
+figure, imshow(A);title('Orange Flower');
+
+greenData= A(:,:,2);
+figure, imshow(A(:,:,2));title('Orange Flower Green Pixel Data');
+figure, imshow(A(:,:,2)), colormap([zeros(256,1),[0:1/255:1]', zeros(256,1)]), colorbar;title('Orange Flower Green Pixel Data');
+
+im = greenData(1675:1684,975:984);
+display(im);
+
+minValue=min(im(:));
+display(minValue);
+
+maxValue=max(im(:));
+display(maxValue);
+
+
+im2= im*2;
+display(im2);
+
+imDouble1= double(im);
+display(imDouble1);
+
+imDouble12= imDouble1*2;
+display(imDouble12);
+
+imDouble2= im2double(im);
+display(imDouble2);
+
+imDouble3= mat2gray(im);
+display(imDouble3);

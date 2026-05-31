@@ -1,0 +1,362 @@
+>> A=imread('OrangeFlower.jpg');
+>> greenData= A(:,:,2);
+>> A(1675:1684,:)
+
+....
+
+  Columns 2809 through 2816
+
+   23   22   19   17   16   15   15   15
+   21   21   20   18   17   15   14   14
+   20   20   18   18   17   15   15   15
+   21   20   19   18   17   16   15   15
+   22   21   19   19   19   17   16   15
+   19   18   19   20   19   17   16   15
+   19   18   17   16   16   16   16   16
+   20   19   17   16   16   16   16   16
+   21   21   19   17   16   16   16   15
+   20   21   20   18   15   15   15   13
+
+>> greenData(:,975: 984)
+
+''''
+  100  101  102  101   99  100  102  100   96   95
+  102  103  103  102  103  106  103   99   99   97
+  104  104  103  103  103  107  104   99  102  100
+  103  102  104  106  105  107  106  102  103  101
+  104  106  104  106  102  103  106  105  104  101
+  100  101  103  101  103  104  105  105  102  101
+  101  102  104  103  102  102  103  104  103  101
+  101  102  104  105  103  100  102  104  106  102
+  100  100  101  102  101   98  101  104  105  103
+   99   98   99  100  101  101  102  103  103  103
+  102  100  100  101  103  104  105  104  104  105
+  105  106  101  101  105  105  106  104  103  104
+  103  104  102  104  106  106  108  107  106  105
+
+   68   69   67   70   66   65   67   66   65   65
+   70   72   70   70   68   69   70   68   67   66
+   70   71   69   68   69   72   71   67   67   65
+   70   70   67   67   69   73   70   65   66   64
+   65   64   68   70   69   71   70   66   67   65
+   66   70   68   72   68   69   70   69   68   65
+   63   68   70   70   69   70   69   69   67   66
+   62   64   69   68   67   67   68   69   69   67
+   59   60   62   63   64   63   64   71   72   70
+   60   60   59   60   62   61   63   69   71   69
+   64   63   64   65   63   63   64   65   68   68
+   72   70   69   70   70   71   67   66   66   67
+   76   77   74   74   74   74   71   69   66   67
+   75   76   76   77   76   76   73   72   69   68
+
+
+>> im = B;C
+
+ ...
+
+   70   72   70   70   68   69   70   68   67   66
+   70   71   69   68   69   72   71   67   67   65
+   70   70   67   67   69   73   70   65   66   64
+   65   64   68   70   69   71   70   66   67   65
+   66   70   68   72   68   69   70   69   68   65
+   63   68   70   70   69   70   69   69   67   66
+   62   64   69   68   67   67   68   69   69   67
+   59   60   62   63   64   63   64   71   72   70
+   60   60   59   60   62   61   63   69   71   69
+   64   63   64   65   63   63   64   65   68   68
+   72   70   69   70   70   71   67   66   66   67
+   76   77   74   74   74   74   71   69   66   67
+   75   76   76   77   76   76   73   72   69   68
+
+
+>> display(im)
+
+  Columns 8443 through 8448
+
+   14   12   10    9    9    9
+   14   12   11    9    8    8
+   13   13   13   11   10   10
+   14   13   13   12   11   11
+   14   14   14   12   11   10
+   13   14   13   11   11   10
+   11   10   11   11   11   11
+   11   10   11   11   13   13
+   14   12   11   11   13   12
+   15   13   13   13   13   11
+
+
+>> max(max(im))
+
+ans =
+
+  212
+
+>> min(min(im))
+
+ans =
+
+    0
+
+>> im .* 2
+
+...
+  Columns 8443 through 8448
+
+   28   24   20   18   18   18
+   28   24   22   18   16   16
+   26   26   26   22   20   20
+   28   26   26   24   22   22
+   28   28   28   24   22   20
+   26   28   26   22   22   20
+   22   20   22   22   22   22
+   22   20   22   22   26   26
+   28   24   22   22   26   24
+   30   26   26   26   26   22
+
+
+>> im2 = im .* 2
+
+    9. Display the values of the elements in im2. Are the results what you expected? EXPLAIN YOUR RESULTS IN THE WRITE-UP PORTION OF THIS ASSIGNMENT.
+
+
+>> imDouble1= double(im)
+
+...
+  Columns 8446 through 8448
+
+     9     9     9
+     9     8     8
+    11    10    10
+    12    11    11
+    12    11    10
+    11    11    10
+    11    11    11
+    11    13    13
+    11    13    12
+    13    13    11
+
+    12. Display the values of the elements in imDouble12. How do they differ from im2. EXPLAIN YOUR RESULTS IN THE WRITE-UP PORTION OF THIS ASSIGNMENT.
+
+
+
+>> im2double(im)
+
+  Columns 8443 through 8448
+
+    0.0549    0.0471    0.0392    0.0353    0.0353    0.0353
+    0.0549    0.0471    0.0431    0.0353    0.0314    0.0314
+    0.0510    0.0510    0.0510    0.0431    0.0392    0.0392
+    0.0549    0.0510    0.0510    0.0471    0.0431    0.0431
+    0.0549    0.0549    0.0549    0.0471    0.0431    0.0392
+    0.0510    0.0549    0.0510    0.0431    0.0431    0.0392
+    0.0431    0.0392    0.0431    0.0431    0.0431    0.0431
+    0.0431    0.0392    0.0431    0.0431    0.0510    0.0510
+    0.0549    0.0471    0.0431    0.0431    0.0510    0.0471
+    0.0588    0.0510    0.0510    0.0510    0.0510    0.0431
+
+    14. Display the values in imDouble2. How do they differ from Double1. EXPLAIN YOUR RESULTS IN THE WRITE-UP PORTION OF THIS ASSIGNMENT
+
+
+
+>> mat2gray(im);
+>> imDouble3= mat2gray(im);
+>> display(imDouble3);
+
+  Columns 8445 through 8448
+
+    0.0472    0.0425    0.0425    0.0425
+    0.0519    0.0425    0.0377    0.0377
+    0.0613    0.0519    0.0472    0.0472
+    0.0613    0.0566    0.0519    0.0519
+    0.0660    0.0566    0.0519    0.0472
+    0.0613    0.0519    0.0519    0.0472
+    0.0519    0.0519    0.0519    0.0519
+    0.0519    0.0519    0.0613    0.0613
+    0.0519    0.0519    0.0613    0.0566
+    0.0613    0.0613    0.0613    0.0519
+
+ How do they differ from imDouble2? EXPLAIN YOUR RESULTS IN THE WRITE-UP PORTION OF THIS ASSIGNMENT
+
+    16. In the write up portion of this assignment in addition to describing the results from steps 1-13 above in a separate section summarize the differences between the following Matlab operations:
+        16a. double
+        16b im2double
+        16c. im2double(double(im))
+        16d. mat2gray
+
+Yeah, it's not well described. But a simple test will show you that
+when you use im2double, it will convert your uint8 image from the
+range of 0-255 into a double array in the range 0-1. In general, all
+Image Processing Toolbox functions that take floating point arrays
+want them in the range of 0 to 1. I find it kind of annoying but
+that's the way it is. That's basically what "rescaling" means. So
+this imdouble() function is there to help you get to what you might
+need for later calls to Image Processing Toolbox functions. If you
+use double() you would have to divide by 255 yourself if you needed
+to. If you're doing your own custom functions then you can leave it
+in the original range if you want.
+
+
+
+>> help double
+ DOUBLE Convert to double precision.
+    DOUBLE(X) returns the double precision value for X.
+    If X is already a double precision array, DOUBLE has
+    no effect.
+ 
+    DOUBLE is called for the expressions in FOR, IF, and WHILE loops
+    if the expression isn't already double precision.  DOUBLE should
+    be overloaded for all objects where it makes sense to convert it
+    into a double precision value.
+
+
+double
+
+
+Convert to double precision 
+Syntax 
+
+
+double(x)
+
+Description
+
+
+double(x) returns the double-precision value for X. If X is already a double-precision array, double has no effect.
+Remarks
+
+
+double is called for the expressions in for, if, and while loops if the expression isn't already double-precision. double should be overloaded for any object when it makes sense to convert it to a double-precision value.
+
+
+>> help im2double
+ IM2DOUBLE Convert image to double precision.  
+    IM2DOUBLE takes an image as input, and returns an image of class double.  If
+    the input image is of class double, the output image is identical to it.  If
+    the input image is not double, IM2DOUBLE returns the equivalent image of
+    class double, rescaling or offsetting the data as necessary.
+ 
+    I2 = IM2DOUBLE(I1) converts the intensity image I1 to double
+    precision, rescaling the data if necessary.
+ 
+    RGB2 = IM2DOUBLE(RGB1) converts the truecolor image RGB1 to
+    double precision, rescaling the data if necessary.
+ 
+    I = IM2DOUBLE(BW) converts the binary image BW to a double-
+    precision intensity image.
+ 
+    X2 = IM2DOUBLE(X1,'indexed') converts the indexed image X1 to
+    double precision, offsetting the data if necessary.
+  
+    Class Support
+    -------------
+    Intensity and truecolor images can be uint8, uint16, double, logical,
+    single, or int16. Indexed images can be uint8, uint16, double or
+    logical. Binary input images must be logical. The output image is double.
+  
+    Example
+    -------
+        I1 = reshape(uint8(linspace(1,255,25)),[5 5])
+        I2 = im2double(I1)
+ 
+    See also double, im2single, im2int16, im2uint8, im2uint16.  
+
+    Reference page in Help browser
+       doc im2double
+
+Image Processing Toolbox™    Provide feedback about this page  
+im2double
+
+
+Convert image to double precision 
+Syntax 
+
+
+I2 = im2double(I)
+RGB2 = im2double(RGB)
+I = im2double(BW)
+X2 = im2double(X,'indexed')
+
+Description
+
+
+I2 = im2double(I) converts the intensity image I to double precision, rescaling the data if necessary. 
+
+If the input image is of class double, the output image is identical. 
+
+RGB2 = im2double(RGB) converts the truecolor image RGB to double precision, rescaling the data if necessary.
+
+I = im2double(BW) converts the binary image BW to a double-precision intensity image.
+
+X2 = im2double(X,'indexed') converts the indexed image X to double precision, offsetting the data if necessary.
+Class Support
+
+
+Intensity and truecolor images can be uint8, uint16, double, logical, single, or int16. Indexed images can be uint8, uint16, double or logical. Binary input images must be logical. The output image is double.
+Examples
+
+I1 = reshape(uint8(linspace(1,255,25)),[5 5])
+I2 = im2double(I1)
+
+
+
+>> help mat2gray
+ MAT2GRAY Convert matrix to intensity image.
+    I = MAT2GRAY(A,[AMIN AMAX]) converts the matrix A to the intensity image I.
+    The returned matrix I contains values in the range 0.0 (black) to 1.0 (full
+    intensity or white).  AMIN and AMAX are the values in A that correspond to
+    0.0 and 1.0 in I.  Values less than AMIN become 0.0, and values greater than
+    AMAX become 1.0.
+ 
+    I = MAT2GRAY(A) sets the values of AMIN and AMAX to the minimum and maximum
+    values in A.
+ 
+    Class Support
+    -------------  
+    The input array A can be logical or numeric. The output image I is double.
+ 
+    Example
+    -------
+        I = imread('rice.png');
+        J = filter2(fspecial('sobel'), I);
+        K = mat2gray(J);
+        figure, imshow(I), figure, imshow(K)
+ 
+    See also gray2ind, ind2gray, rgb2gray.
+
+    Reference page in Help browser
+       doc mat2gray
+
+
+
+m2double
+
+
+Convert image to double precision 
+Syntax 
+
+
+I2 = im2double(I)
+RGB2 = im2double(RGB)
+I = im2double(BW)
+X2 = im2double(X,'indexed')
+
+Description
+
+
+I2 = im2double(I) converts the intensity image I to double precision, rescaling the data if necessary. 
+
+If the input image is of class double, the output image is identical. 
+
+RGB2 = im2double(RGB) converts the truecolor image RGB to double precision, rescaling the data if necessary.
+
+I = im2double(BW) converts the binary image BW to a double-precision intensity image.
+
+X2 = im2double(X,'indexed') converts the indexed image X to double precision, offsetting the data if necessary.
+Class Support
+
+
+Intensity and truecolor images can be uint8, uint16, double, logical, single, or int16. Indexed images can be uint8, uint16, double or logical. Binary input images must be logical. The output image is double.
+Examples
+
+I1 = reshape(uint8(linspace(1,255,25)),[5 5])
+I2 = im2double(I1)

@@ -1,0 +1,34 @@
+lAB 12B ANSWER
+Piter Garcia
+
+.     Type a question mark (?) to get a Debug HELP screen.
+(!DOSCALC) pulls up a Decimal/Hexadecimal/Binary calculator.Esc to leave.
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  REVISED 05/07/89   .
+
+Type '?' for  80286]
+-
+-U
+1A25:0000 B8241A         MOV    AX,1A24
+1A25:0003 8ED8           MOV    DS,AX
+1A25:0005 A10000         MOV    AX,[0000]
+1A25:0008 8B360200       MOV    SI,[0002]
+1A25:000C F7E6           MUL    SI
+1A25:000E 8BCA           MOV    CX,DX
+1A25:0010 F7260400       MUL    Word Ptr [0004]
+1A25:0014 8BF8           MOV    DI,AX
+-U
+1A25:0016 8BF2           MOV    SI,DX
+1A25:0018 8BC1           MOV    AX,CX
+1A25:001A F7260400       MUL    Word Ptr [0004]
+1A25:001E 03F0           ADD    SI,AX
+1A25:0020 83D200         ADC    DX,+00
+1A25:0023 8BDE           MOV    BX,SI
+1A25:0025 8BEA           MOV    BP,DX
+1A25:0027 C3             RET
+-BP 27
+-G
+AX=4751  BX=B489  CX=7EBF  DX=65F5  SP=0000  BP=65F5  SI=B489  DI=4FDA
+DS=1A24  ES=1A14  SS=1A24  CS=1A25  IP=0027   NV UP EI PL NZ NA PE NC
+1A25:0027 C3             RET                                  ;BR0
+-

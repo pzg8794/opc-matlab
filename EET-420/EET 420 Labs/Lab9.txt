@@ -1,0 +1,106 @@
+This is a Classroom License for instructional use only.
+	Research and commercial use is prohibited.
+  Using Toolbox Path Cache.  Type "help toolbox_path_cache" for more info.
+ 
+  To get started, select "MATLAB Help" from the Help menu.
+
+Part 1:
+
+num=[0 0 25];
+den=[1 6 25];
+CIR1=tf(num,den)
+t=(0:0.01:3)
+y= step(CIR1,t)
+plot(t,y)
+ylabel('y(t)')
+xlabel('Time(s)'),grid
+title(' Unit Step Response for (25/s^2+6s+25)')
+
+ 
+
+Transfer function:
+      25
+--------------
+s^2 + 6 s + 25
+
+
+
+Part 2:
+
+
+num=[0 25 75];
+den=[3 18 75];
+CIR1=tf(num,den)
+t=(0:0.01:3)
+y= step(CIR1,t)
+plot(t,y)
+ylabel('y(t)')
+xlabel('Time(s)'),grid
+title(' Unit Step Response for z=3')
+
+Transfer function:
+
+    25 s + 75
+-----------------
+3 s^2 + 18 s + 75
+
+
+Part 3:
+
+
+num=[0 25 75];
+den=[3 18 75];
+CIR1=tf(num,den)
+t=(0:0.01:3)
+y= step(CIR1,t)
+plot(t,y)
+ylabel('y(t)')
+xlabel('Time(s)'),grid
+title(' Unit Step Response for z=3')
+
+Transfer function:
+
+    25 s + 375
+-----------------
+15 s^2 + 90 s + 375
+
+
+Part 4:
+
+num=[0 150 150];
+den=[3 36 183 450];
+CIR1=tf(num,den)
+t=(0:0.01:3)
+y= step(CIR1,t)
+plot(t,y)
+ylabel('y(t)')
+xlabel('Time(s)'),grid
+title(' Unit Step Response for p=6,z=3')
+
+
+Transfer function:
+
+        150 s + 450
+----------------------------
+3 s^3 + 24 s^2 + 183 s + 450
+
+
+
+num=[0 150 2250];
+den=[15 240 915 2250];
+CIR1=tf(num,den)
+t=(0:0.01:3)
+y= step(CIR1,t)
+plot(t,y)
+ylabel('y(t)')
+xlabel('Time(s)'),grid
+title(' Unit Step Response for p=6,z=15')
+
+
+ransfer function:
+
+         150 s + 2250
+-------------------------------
+15 s^3 + 240 s^2 + 915 s + 2250
+
+

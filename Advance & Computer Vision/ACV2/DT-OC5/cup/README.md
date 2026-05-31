@@ -1,0 +1,34 @@
+# cup
+
+Path: `Advance & Computer Vision/ACV2/DT-OC5/cup`
+
+## Items
+
+- `01.jpg` (file)
+- `02.jpg` (file)
+- `03.jpg` (file)
+- `04.jpg` (file)
+- `05.jpg` (file)
+- `06.jpg` (file)
+- `07.jpg` (file)
+- `08.jpg` (file)
+- `09.jpg` (file)
+- `10.jpg` (file)
+- `11.jpg` (file)
+- `12.jpg` (file)
+- `13.jpg` (file)
+- `14.jpg` (file)
+- `15.jpg` (file)
+- `16.jpg` (file)
+- `17.jpg` (file)
+- `18.jpg` (file)
+- `19.jpg` (file)
+- `20.jpg` (file)
+- `21.jpg` (file)
+- `22.jpg` (file)
+- `23.jpg` (file)
+- `24.jpg` (file)
+
+## Notes
+
+This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.

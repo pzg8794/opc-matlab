@@ -1,0 +1,53 @@
+{\rtf1\ansi\ansicpg1256\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\ql\qnatural
+
+\f0\fs22 \cf0 \
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth7160\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\ql\qnatural
+
+\fs26 \cf0 DATA SEGMENT\
+\'a0\'a0\'a0 X\'a0\'a0 DB\'a0 255,255,170,187\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 DB\'a0 204,221,238,255\
+DATA ENDS\
+CODE SEGMENT\
+\'a0\'a0\'a0 ASSUME DS:DATA,CS:CODE\
+\'a0\'a0\'a0 \
+START:\'a0 MOV AX,DATA ; move data to ax register\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 MOV DS,AX\'a0\'a0 ; transfer data from ax to ds\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 LEA SI,X\'a0\'a0\'a0 ; put data in the memory location\
+\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 MOV CX,08H\'a0 ; set counter for x^2 for all 8 numbers\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 ; and then add it\'a0 \
+JUMP:\'a0\'a0 XOR AH,AH\'a0\'a0 ; clear ah register\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 MOV AL,DS:[SI]\'a0 ; move first number from the memory \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 ;location\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 MUL AL\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 ; multiply al register to al register\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 ; to get square\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 ADD BX,AX\'a0\'a0\'a0\'a0\'a0\'a0 ; add ax register to bx register\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 JC\'a0 LOOP1\'a0\'a0\'a0\'a0\'a0\'a0 \
+LOOP2:\'a0 INC SI\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 ; increment pointer by one\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 DEC CX\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 ; decrement cx counter by one\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 JNZ JUMP\'a0\'a0\'a0\'a0\'a0\'a0\'a0 ; jump on non zero to complete the loop\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 JMP LOOP3\'a0\'a0\'a0\'a0\'a0\'a0 ; jump to loop3\
+LOOP1:\'a0 INC DI\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 ; increment di by one \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 JMP LOOP2\
+\'a0\'a0\'a0\'a0\'a0\'a0 \
+LOOP3:\'a0 MOV CX,03H\'a0\'a0\'a0\'a0\'a0 ; set cx counter by four\
+LOOP4:\'a0 SHR DI,01H\'a0\'a0\'a0\'a0\'a0 ; shift di register on once\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 RCR BX,01H\'a0\'a0\'a0\'a0\'a0 ; rotate bx register through carry once\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 DEC CX\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 ; decrement counter\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 JNZ LOOP4\'a0\'a0\'a0\'a0\'a0\'a0 ; jump on non zero to run the program\
+\'a0 HLT\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 CODE ENDS\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 END START\
+\'a0\'a0\'a0\'a0 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cell \lastrow\row
+}

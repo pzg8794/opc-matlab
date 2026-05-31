@@ -1,0 +1,1 @@
+bar3(rgbhist(rgb2lst(im2double(imread('coast_bea2.jpg'))), true));

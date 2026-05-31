@@ -1,0 +1,88 @@
+Part 1:
+
+num=[0 0 100];
+den=[1 8 100];
+CIR1=tf(num,den)
+Poles=roots(den)
+
+Transfer function:
+      100
+---------------
+s^2 + 8 s + 100
+ 
+
+Poles =
+
+  -4.0000 + 9.1652i
+  -4.0000 - 9.1652i
+
+
+
+
+num=[0 0 100];
+den=[1 8 100];
+CIR1=tf(num,den)
+t=(0:0.001:5)
+y= step(CIR1,t)
+plot(t,y)
+ylabel('y(t)')
+xlabel('Time(s)'),grid
+title(' Unit Step Response for (100/s^2+8s+100)')
+
+
+PART 4
+
+num =
+
+           0           0           0        1000
+
+
+den =
+
+           1          18         180        1000
+
+ 
+Transfer function:
+           1000
+---------------------------
+s^3 + 18 s^2 + 180 s + 1000
+
+
+num=[0 1000 0]
+den=[1 18 180 1000]
+CIR1=tf(num,den)
+t=(0:0.001:2)
+y= step(CIR1,t)
+plot(t,y)
+ylabel('y(t)')
+xlabel('Time(s)'),grid
+title(' Unit Step Response for additional pole S=-10')
+
+
+PART 5
+
+num =
+
+           0           0           0        4000
+
+
+den =
+
+           1          48         420        4000
+
+ 
+Transfer function:
+           4000
+---------------------------
+s^3 + 48 s^2 + 420 s + 4000
+
+num=[0  0 0 4000]
+den=[1 48 420 4000]
+CIR1=tf(num,den)
+t=(0:0.001:2)
+y= step(CIR1,t)
+plot(t,y)
+ylabel('y(t)')
+xlabel('Time(s)'),grid
+title(' Unit Step Response for additional pole S=-40')
+

@@ -1,0 +1,26 @@
+<list>
+  <host>
+    <mEmail></mEmail>
+    <mHostName>www.google.com</mHostName>
+    <mName>Google</mName>
+    <mbBroadcast>false</mbBroadcast>
+    <mbContinuousPackets>false</mbContinuousPackets>
+    <mbNotificationPerPing>false</mbNotificationPerPing>
+    <mnInterval>0</mnInterval>
+    <mnNumberOfPackets>0</mnNumberOfPackets>
+    <mnPacketCount>0</mnPacketCount>
+    <mnPacketSize>56</mnPacketSize>
+  </host>
+  <host>
+    <mEmail></mEmail>
+    <mHostName>127.0.0.1</mHostName>
+    <mName>Localhost</mName>
+    <mbBroadcast>false</mbBroadcast>
+    <mbContinuousPackets>false</mbContinuousPackets>
+    <mbNotificationPerPing>false</mbNotificationPerPing>
+    <mnInterval>0</mnInterval>
+    <mnNumberOfPackets>0</mnNumberOfPackets>
+    <mnPacketCount>0</mnPacketCount>
+    <mnPacketSize>56</mnPacketSize>
+  </host>
+</list>

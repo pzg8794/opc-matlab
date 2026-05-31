@@ -1,0 +1,5 @@
+x1=[0 0 10]; y1=[1 10 0]; sys1=tf(x1,y1)
+x2=[0 4 12];y2=[0 1 0]; sys2=tf(x2,y2)
+sysfb=feedback(sys1,[1])
+sys_series=series(sysfb,sys2)
+sysfin=feedback(sys_series,[1])

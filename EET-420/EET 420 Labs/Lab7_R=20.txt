@@ -1,0 +1,88 @@
+This is a Classroom License for instructional use only.
+	Research and commercial use is prohibited.
+  Using Toolbox Path Cache.  Type "help toolbox_path_cache" for more info.
+ 
+  To get started, select "MATLAB Help" from the Help menu.
+
+A=[-5 5;0 -5]
+A=[-1.25 1.25;0 -1.25]
+B=[0;1.25]
+C=[1 -1]
+D=[0]
+
+[num,den]=ss2tf(A,B,C,D)
+CIR1=tf(num,den)
+ 
+
+>> 
+A =
+
+   -1.2500    1.2500
+         0   -1.2500
+
+
+B =
+
+         0
+    1.2500
+
+
+C =
+
+     1    -1
+
+
+D =
+
+     0
+
+
+num =
+
+         0   -1.2500    0.0000
+
+
+den =
+
+    1.0000    2.5000    1.5625
+
+ 
+Transfer function:
+-1.25 s + 2.22e-016
+-------------------
+s^2 + 2.5 s + 1.563
+ 
+
+
+UNIT STEP RESPONSE PLOTS OF STATE MATRICES AND TRANSFER FUNCTION FOR R=80 Ohms
+
+num1=[0 -1.25 0];
+den1=[1 10 25];
+CIR2=tf(num1,den1)
+t=(0:0.01:10)
+y=step(A,B,C,D,1,t)
+subplot(2,1,1)
+plot(t,y)
+ylabel('y(t)')
+xlabel('Time(s)'),grid
+title(' Unit Step Response From Transfer Function')
+
+
+A=[-1.25 1.25;0 -1.25]
+B=[0;1.25]
+C=[1 -1]
+D=[0]
+
+[num,den]=ss2tf(A,B,C,D)
+CIR1=tf(num,den)
+t=(0:0.01:10)
+y=step(A,B,C,D,1,t)
+subplot(2,1,2)
+plot(t,y)
+ylabel('y(t)')
+xlabel('Time(s)'),grid
+title('Unit Step Response From State Matrices')
+
+
+
+

@@ -1,0 +1,12 @@
+; Lab 3: Binary to Gray Subroutine
+;Diamela Duverge
+
+CODE SEGMENT
+ASSUME CS: CODE
+B2G: MOV Bx,Ax
+shr Bx, 1
+XOR Bx, Ax
+RET
+CODE ENDS
+END B2G
+END
