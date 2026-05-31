@@ -2,10 +2,13 @@
 
 Path: `Advance & Computer Vision/CVStuff`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `Concentration.java` (file)
-- `CV-HOMEWORK NUMBER TWO.docx` (file)
 - `CV_HW2_AHE_1_InputFile.m` (file)
 - `CV_HW2_AHE_2_InputFile.m` (file)
 - `CV_HW2_AHE_Experimenting2_InputFile.m` (file)
@@ -72,4 +75,4 @@ Path: `Advance & Computer Vision/CVStuff`
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

@@ -2,23 +2,18 @@
 
 Path: `EET-327`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `html/` (folder)
 - `TestNo.1/` (folder)
-- `EET - 327 -Lab11.docx` (file)
-- `EET - 327 -Lab9.docx` (file)
-- `EET-327 lab12.docx` (file)
-- `EET-327 lab20.docx` (file)
 - `EET-327 lab30image.vsd` (file)
 - `EET-327 LAB524MAGE.vsd` (file)
-- `EET-327 LAB53.docx` (file)
 - `EET-327 LAB53IMAGE.vsd` (file)
-- `EET-327 LabNo24.docx` (file)
-- `EET-327 LabNo30.docx` (file)
-- `EET-327Lab15.docx` (file)
 - `EET-327Lab15jpg.vsd` (file)
-- `EET-327Lab16.docx` (file)
 - `EET-327Lab16.jpg.vsd` (file)
 - `fullsinewave.m` (file)
 - `halfsinewave.m` (file)
@@ -56,4 +51,4 @@ Path: `EET-327`
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

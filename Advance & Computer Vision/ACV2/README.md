@@ -2,6 +2,10 @@
 
 Path: `Advance & Computer Vision/ACV2`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `DT-OC5/` (folder)
@@ -10,18 +14,10 @@ Path: `Advance & Computer Vision/ACV2`
 - `reco_toolbox/` (folder)
 - `repitergarcia/` (folder)
 - `10.1.1.229.1174.pdf` (file)
-- `BIIS2011_1Lec02-1.pptx` (file)
-- `CV_Lec02_MATLAB.pdf` (file)
-- `EditingReport.docx` (file)
 - `fig1.png` (file)
 - `fig2.png` (file)
 - `fig3.png` (file)
 - `fig4.png` (file)
-- `Final_Presentation-1.pptx` (file)
-- `Final_Presentation-2.pdf` (file)
-- `Final_Presentation-2.pptx` (file)
-- `Final_Presentation.pptx` (file)
-- `FinalPresentation.png` (file)
 - `histf1.png` (file)
 - `histf2.png` (file)
 - `histf3.png` (file)
@@ -30,7 +26,6 @@ Path: `Advance & Computer Vision/ACV2`
 - `histfig2.png` (file)
 - `histfig3.png` (file)
 - `histfig4.png` (file)
-- `homework2.pdf` (file)
 - `image001.jpg` (file)
 - `image001.png` (file)
 - `image002.jpg` (file)
@@ -44,17 +39,10 @@ Path: `Advance & Computer Vision/ACV2`
 - `img6.png` (file)
 - `img7.png` (file)
 - `img8.png` (file)
-- `Piter Garcia - update2.pptx` (file)
-- `Presentation.pptx` (file)
-- `Presentation1.pptx` (file)
-- `Presentation2.pptx` (file)
-- `Proposal.docx` (file)
 - `Untitled.png` (file)
-- `Update1.pptx` (file)
-- `Update3.pptx` (file)
 - `viewer copy.png` (file)
 - `viewer.png` (file)
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

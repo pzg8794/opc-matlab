@@ -2,12 +2,15 @@
 
 Path: `EET418/Test2-Review`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `ANDXOR.asm` (file)
 - `LAB16 (1).asm` (file)
 - `lab16.asm` (file)
-- `lab16.docx` (file)
 - `LAB18A.asm` (file)
 - `LAB18B.asm` (file)
 - `LAB19A.asm` (file)
@@ -17,4 +20,4 @@ Path: `EET418/Test2-Review`
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

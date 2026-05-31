@@ -2,14 +2,14 @@
 
 Path: `Advance & Computer Vision/ACV/ACV-Proposal`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
-- `Research Project Proposal - ACV.docx` (file)
-- `Research Project Proposal - ACV.pdf` (file)
-- `Research Project Proposal-Presentation.pdf` (file)
-- `Research Project Proposal-Presentation.pptx` (file)
-- `Research Project Proposal.docx` (file)
+- No items currently classified here.
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

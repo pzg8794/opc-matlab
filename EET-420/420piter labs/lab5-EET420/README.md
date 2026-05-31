@@ -2,15 +2,15 @@
 
 Path: `EET-420/420piter labs/lab5-EET420`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `lab5-1.m` (file)
-- `lab5-2A.txt` (file)
-- `lab5-2b.txt` (file)
-- `lab5-2c.txt` (file)
 - `lab5.m` (file)
 - `lab51.m` (file)
-- `lab51answers.txt` (file)
 - `lab52.m` (file)
 - `lab53.m` (file)
 - `lab53a.m` (file)
@@ -19,4 +19,4 @@ Path: `EET-420/420piter labs/lab5-EET420`
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

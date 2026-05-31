@@ -2,6 +2,10 @@
 
 Path: `Advance & Computer Vision/ComputerVision/Hw3_1`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `Absolute value of Horiszontal Edge part1.jpg` (file)
@@ -14,8 +18,6 @@ Path: `Advance & Computer Vision/ComputerVision/Hw3_1`
 - `Canny_4.jpg` (file)
 - `CV_HW3_PiterGarcia.m` (file)
 - `FourInputPictures.jpg` (file)
-- `Homework3_1.docx` (file)
-- `Homework3_1.pdf` (file)
 - `Horizontal Edge1.jpg` (file)
 - `Horizontal Edge2.jpg` (file)
 - `Horizontal Edge3.jpg` (file)
@@ -43,4 +45,4 @@ Path: `Advance & Computer Vision/ComputerVision/Hw3_1`
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

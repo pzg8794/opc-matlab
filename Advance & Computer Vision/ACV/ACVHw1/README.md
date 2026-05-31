@@ -2,6 +2,10 @@
 
 Path: `Advance & Computer Vision/ACV/ACVHw1`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `ErrorPlot1.jpg` (file)
@@ -31,4 +35,4 @@ Path: `Advance & Computer Vision/ACV/ACVHw1`
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

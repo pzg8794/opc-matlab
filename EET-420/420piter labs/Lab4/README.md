@@ -2,12 +2,14 @@
 
 Path: `EET-420/420piter labs/Lab4`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `Lab4.asm` (file)
-- `Lab4o.txt` (file)
-- `Lab4o1.txt` (file)
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

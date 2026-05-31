@@ -2,9 +2,12 @@
 
 Path: `EET418/418Labs/EET418labs/418l`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
-- `8-2.txt` (file)
 - `lab10.asm` (file)
 - `LAB11.asm` (file)
 - `LAB12.1.asm` (file)
@@ -12,7 +15,6 @@ Path: `EET418/418Labs/EET418labs/418l`
 - `LAB13.asm` (file)
 - `LAB14.asm` (file)
 - `lab15.asm` (file)
-- `lab15.rtf` (file)
 - `lab5.asm` (file)
 - `lab5A.asm` (file)
 - `lab6.asm` (file)
@@ -27,4 +29,4 @@ Path: `EET418/418Labs/EET418labs/418l`
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

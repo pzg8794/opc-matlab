@@ -2,6 +2,10 @@
 
 Path: `Advance & Computer Vision/ACV/ACV-HW2`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `ACV_HW2_KarinaDamico_PeterGarcia.docx` (file)
@@ -15,4 +19,4 @@ Path: `Advance & Computer Vision/ACV/ACV-HW2`
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

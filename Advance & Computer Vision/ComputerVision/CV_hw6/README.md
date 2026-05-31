@@ -2,6 +2,10 @@
 
 Path: `Advance & Computer Vision/ComputerVision/CV_hw6`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `Binary Image.jpg` (file)
@@ -22,4 +26,4 @@ Path: `Advance & Computer Vision/ComputerVision/CV_hw6`
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

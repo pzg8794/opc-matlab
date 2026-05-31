@@ -2,6 +2,10 @@
 
 Path: `EET-420/420piter labs`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `EET-420/` (folder)
@@ -12,9 +16,8 @@ Path: `EET-420/420piter labs`
 - `Lab6/` (folder)
 - `Lab7/` (folder)
 - `Lab10.m` (file)
-- `Lab10.m.txt` (file)
 - `lab9.m` (file)
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

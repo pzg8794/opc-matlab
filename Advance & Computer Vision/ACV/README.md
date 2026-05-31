@@ -2,6 +2,10 @@
 
 Path: `Advance & Computer Vision/ACV`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `ACV-HW2/` (folder)
@@ -12,7 +16,6 @@ Path: `Advance & Computer Vision/ACV`
 - `CombHist1.jpg` (file)
 - `CombHist2.jpg` (file)
 - `Piter Garcia - update2.pdf` (file)
-- `Piter Garcia - update2.pptx` (file)
 - `RGB_Histograms.jpg` (file)
 - `RGBcomb.jpg` (file)
 - `RGBcombined.jpg` (file)
@@ -24,10 +27,7 @@ Path: `Advance & Computer Vision/ACV`
 - `test2combhist.jpg` (file)
 - `test2hist.jpg` (file)
 - `testImage.jpg` (file)
-- `Update1 (1).pptx` (file)
-- `Update1.pptx` (file)
-- `~$search Project Proposal.docx` (file)
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.
